@@ -1,0 +1,704 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "agright--regular";
+  src: url(../assets/fonts/agright--regular.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Black";
+  src: url(../assets/fonts/LeagueSpartan-Black.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: url(../assets/fonts/LeagueSpartan-Bold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-ExtraBold";
+  src: url(../assets/fonts/LeagueSpartan-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-ExtraLight";
+  src: url(../assets/fonts/LeagueSpartan-ExtraLight.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Light";
+  src: url(../assets/fonts/LeagueSpartan-Light.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Medium";
+  src: url(../assets/fonts/LeagueSpartan-Medium.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Regular";
+  src: url(../assets/fonts/LeagueSpartan-Regular.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-SemiBold";
+  src: url(../assets/fonts/LeagueSpartan-SemiBold.ttf);
+}
+@font-face {
+  font-family: "LeagueSpartan-Thin";
+  src: url(../assets/fonts/LeagueSpartan-Thin.ttf);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "LeagueSpartan-Light", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+  color: #ffffff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.family-agright {
+  font-family: "agright--regular" !important;
+}
+.family-black {
+  font-family: "LeagueSpartan-Black" !important;
+}
+.family-bold {
+  font-family: "LeagueSpartan-Bold" !important;
+}
+.family-extraBold {
+  font-family: "LeagueSpartan-ExtraBold" !important;
+}
+.family-extraLight {
+  font-family: "LeagueSpartan-ExtraLight" !important;
+}
+.family-light {
+  font-family: "LeagueSpartan-Light" !important;
+}
+.family-medium {
+  font-family: "LeagueSpartan-Medium" !important;
+}
+.family-regular {
+  font-family: "LeagueSpartan-Regular" !important;
+}
+.family-semiBold {
+  font-family: "LeagueSpartan-SemiBold" !important;
+}
+.family-thin {
+  font-family: "LeagueSpartan-Thin" !important;
+}
+
+.font-white {
+  color: #ffffff !important;
+}
+.font-black {
+  color: #000000 !important;
+}
+.font-pink {
+  color: #d75f5f !important;
+}
+.font-gray {
+  color: #746a69 !important;
+}
+
+.font-xs {
+  font-size: 0.75rem;
+}
+.font-small {
+  font-size: 0.875rem;
+}
+.font-normal {
+  font-size: 1rem;
+}
+.font-medium {
+  font-size: 1.2rem;
+}
+.font-regular {
+  font-size: 1.6rem;
+}
+.font-lg {
+  font-size: 2rem;
+}
+.font-big {
+  font-size: 3rem;
+}
+
+.back-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.back-top svg {
+  color: #1a1a1a !important;
+}
+.box-number {
+  background: rgba(255, 255, 255, 0);
+  animation-name: box-show;
+  animation-duration: 2s;
+}
+.bg-topo {
+  background: url(../assets/background/bg-topo.jpeg) center top no-repeat;
+  background-size: cover; 
+  width: 100vw;
+}
+.top-img {
+  padding-top: 14px;
+  justify-content: center;
+}
+.tituloReserva {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.textReserva {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ba595d;
+  font-size: 2rem;
+  letter-spacing: 0.1em;
+}
+.botaoContato {
+  width: 360px;
+  align-content: center;
+  opacity: 0.7;
+}
+.buttonContato {
+  font-size: 1.2rem;
+  align-self: center;
+  padding-left: 20px;
+  color: #ba595d;
+}
+.buttonReserva {
+  color: white;
+  font-size: 2.5rem;
+  align-self: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 3px;
+  font-family: LeagueSpartan-Regular;
+}
+.reservaButton {
+    width: 520px;
+    align-self: center;
+    align-content: center;
+}
+.evento {
+  text-align: center;
+  color: #ba595d;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-family: LeagueSpartan-Regular;
+  font-size: 1.7rem;
+}
+.textEvento {
+  text-align: center;
+  color: #746a69;
+}
+.tituloLine {
+  text-align: center;
+  text-transform: uppercase;
+  color: #d75f5f;
+  font-size: 2.25rem;
+  font-family: LeagueSpartan-Medium;
+  letter-spacing: 0.025em;
+}
+.textLine {
+  text-align: center;
+  color: #746a69;
+  font-size: 1.5rem;
+}
+.buttonLine {
+  width: 420px;
+  justify-self: center;
+  justify-items: center;
+}
+.buttonVaga {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+.botaoVaga {
+  align-items: center;
+  width: 360px;
+}
+.buttonEmail {
+  width: 280px;
+  height: 50px;
+  border-radius: 0.5rem; 
+  border-color: #d04c4f;
+  border-style: double;
+  background-color: #feb5b1;
+  color: #ba595d;
+  font-size: 1.2em;
+}
+.bg-folder {
+  background: url(../assets/background/bg-folder.jpeg) center center no-repeat;
+  background-size: cover; 
+}
+.tituloVideo {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ba595d;
+  font-size: 2.5rem;
+  font-family: LeagueSpartan-Medium;
+  letter-spacing: 0.05em;
+}
+.imgVideo {
+  width: 520px;
+}
+.descubra{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ba595d;
+  font-size: 2.75rem;
+  font-family: LeagueSpartan-Regular;
+  line-height: 1.75rem;
+}
+.durante{
+  text-align: center;
+  text-transform: uppercase;
+  color: #ba595d;
+  font-size: 1.55rem;
+  font-family: LeagueSpartan-Regular;
+}
+.entenda{
+  text-align: center;
+  color: #746a69;
+  font-size: 1.35rem;
+  line-height: 1.45rem;
+  font-family: LeagueSpartan-Regular;
+}
+.contatoBotao {
+  width: 300px;
+  align-content: center;
+  opacity: 0.7;
+}
+.contatoButton {
+  font-size: 1.2rem;
+  align-self: center;
+  padding-left: 30px;
+  color: #ba595d;
+}
+.buttonVideo {
+  width: 660px;
+  align-items: center;
+  opacity: 0.7;
+}
+.botaoVideo {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  align-self: center;
+}
+.titulo-bio{
+  text-align: center;
+  text-transform: uppercase;
+  font-family: agright--regular;
+  color: #d75f5f;
+  font-size: 3rem;
+}
+.text-bio{
+  text-align: left;
+  text-transform: uppercase;
+  color: black;
+  font-size: 1.2rem;
+}
+.descricao-bio {
+  text-align: left;
+  color: black;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-right: 620px;
+  padding-bottom: 80px;
+  font-family: LeagueSpartan-Regular;
+}
+.bg-footer {
+  background: url(../assets/background/bg-footer.jpeg) center center no-repeat;
+  background-size: cover; 
+}
+.titulo-footer{
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.buttonFooter {
+  align-self: center;
+  text-align: left;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+}
+.botaoFooter {
+  width: 360px;
+  opacity: 0.7;
+}
+.textFooter {
+  text-align: center;
+  font-size: 1rem;
+}
+.footer-text {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 1rem;
+}
+.imgMac {
+  width: 100%;
+  height: auto;
+}
+.bars-tecnology {
+  animation-name: slidein;
+}
+.btn-pink {
+  background: white;
+  width: 350px;
+}
+.btn-pink:hover {
+  background: white;
+}
+.tec_dir {
+  border-top-left-radius: 16px;
+}
+.tec_left {
+  border-bottom-right-radius: 16px;
+}
+.strong {
+  font-family: Montserrat-Light;
+}
+.whats-message {
+  z-index: 9;
+}
+.w3-modal-content {
+  border-radius: 2em;
+}
+
+.w3-container {
+  padding: 2em 2em 0.8em;
+}
+
+.modal-cancel {
+    background-image: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    background-color: #EEEEEE;
+    border-color: #ECECEC;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    color: #CCCCCC;
+    height: 42px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0em;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.splide__pagination__page.is-active {
+  background-color: #b40a7f !important;
+}
+
+.splide__arrow svg {
+  fill: black !important;
+}
+
+
+@media (max-width: 425px) {
+  .bgTopo {
+    background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
+    background-size: cover;
+    width: 100vw; 
+    
+  }
+  .topImg {
+    justify-content: center;
+    padding-top: 20px;
+  }
+  .titulo-reserva {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    padding-top: 14px;
+  }
+  .text-reserva {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-family: LeagueSpartan-Medium;
+  }
+  .botao-contato {
+    width: 170px;
+    height: 40px;
+    opacity: 0.7;
+  }
+  .button-contato {
+    font-size: 0.9rem;
+    text-align: center;
+    align-self: center;
+    vertical-align: middle;
+    color: #ba595d;
+    font-family: LeagueSpartan-Medium;
+  }
+  .button-reserva {
+    color: white;
+    font-size: 1.5rem;
+    align-self: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: LeagueSpartan-Regular;
+    padding-top: 4px;
+  }
+  .reserva-button {
+      width: 340px;
+      align-self: center;
+      align-content: center;
+  }
+  .evento {
+    text-align: center;
+    color: #ba595d;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    font-family: LeagueSpartan-Regular;
+    font-size: 0.8rem;
+  }
+  .text-evento {
+    font-size: 0.7rem;
+    text-align: center;
+    color: #746a69;
+  }
+  .bgfolder {
+    background: url(../assets/background/bgfolder.jpeg) center top no-repeat;
+    background-size: cover; 
+  }
+  .titulo-line {
+    text-align: center;
+    text-transform: uppercase;
+    color: #d75f5f;
+    font-size: 1.2rem;
+    font-family: LeagueSpartan-Medium;
+    letter-spacing: 0.025em;
+  }
+  .text-line {
+    text-align: center;
+    color: #746a69;
+    font-size: 1rem;
+  }
+  .button-line {
+    width: 420px;
+    justify-self: center;
+    justify-items: center;
+  }
+  .titulo-video {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 1.5rem;
+    font-family: LeagueSpartan-Medium;
+    letter-spacing: 0.025em;
+  }
+  .img-video {
+    width: 280px;
+  }
+  .descubra{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 1.6rem;
+    font-family: LeagueSpartan-Regular;
+    line-height: 1.75rem;
+  }
+  .durante{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 0.9rem;
+    font-family: LeagueSpartan-Regular;
+  }
+  .entenda{
+    text-align: center;
+    color: #746a69;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    font-family: LeagueSpartan-Regular;
+  }
+  .contato-botao {
+    width: 155px;
+    height: 30px;
+    align-content: center;
+    opacity: 0.7;
+  }
+  .contato-button {
+    font-size: 0.8rem;
+    align-self: center;
+    padding-left: 10px;
+    padding-top: 4px;
+    color: #ba595d;
+    font-family: LeagueSpartan-Medium;
+  }
+  .button-video {
+    width: 320px;
+    align-items: center;
+    opacity: 0.7;
+  }
+  .botao-video {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: center;
+    padding-top: 2px;
+  }
+  .tituloBio{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: agright--regular;
+    color: #d75f5f;
+    font-size: 1.8rem;
+  }
+  .textBio{
+    text-align: justify;
+    text-transform: uppercase;
+    color: black;
+    font-size: 0.8rem;
+  }
+  .descricaoBio {
+    text-align: left;
+    color: black;
+    font-size: 0.8rem;
+    padding-right: 16px;
+    line-height: 0.85rem;  
+  }
+  .evento-img {
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  .folder-img {
+    justify-content: start;
+    padding-top: 200px;
+  }
+  .folder-botao {
+    width: 230px;
+    height: 30px;
+    align-content: center;
+    opacity: 0.7;
+  }
+  .folder-button {
+    font-size: 0.8rem;
+    align-self: center;
+    color: #ba595d;
+    padding-left: 14px;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-family: LeagueSpartan-Medium;
+  }
+  .button-folder {
+    width: 230px;
+    align-items: start;
+    opacity: 0.7;
+  }
+  .botao-folder {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: center;
+    padding-left: 12px;
+    padding-top: 2px;
+  }
+  .bg-footer {
+    background: url(../assets/background/bgfooter.jpeg) center top no-repeat;
+    background-size: auto; 
+  }
+  .titulo-footer{
+    font-size: 1.2rem;
+    text-align: start;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ba595d;
+    padding-left: 10px;
+  }
+  .button-footer {
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    align-self: center;
+  }
+  .botao-footer {
+    width: 170px;
+    height: 40px;
+    opacity: 0.7;
+  } 
+  .button-vaga {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: end;
+  }
+  .botao-vaga {
+    align-items: center;
+    width: 200px;
+  }
+  
+  .footerText {
+    text-align: left;
+    font-size: 0.4rem;
+    padding-bottom: 10px;
+  }
+}
+
+/* SCROLLBAR */
+@media only screen and (min-width: 600px) {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #d7c7bd;
+  }
+
+  
+  *::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #d7c7bd;
+    border-radius: 20px;
+    border: 3px solid #d7c7bd;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+}
+/* SCROLLBAR */

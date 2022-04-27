@@ -1,0 +1,24 @@
+.notification {
+    z-index: 999;
+}
+
+.erro {
+    --tw-bg-opacity: 1;
+    border: rgba(254, 226, 226, var(--tw-bg-opacity)) !important;
+}
+
+.erro::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    --tw-bg-opacity: 1;
+    color: rgba(254, 226, 226, var(--tw-bg-opacity)) !important;
+    opacity: 1; /* Firefox */
+}
+
+.erro:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    --tw-bg-opacity: 1;
+    color: rgba(254, 226, 226, var(--tw-bg-opacity)) !important;
+}
+
+.erro::-ms-input-placeholder { /* Microsoft Edge */
+    --tw-bg-opacity: 1;
+    color: rgba(254, 226, 226, var(--tw-bg-opacity)) !important;
+}
