@@ -184,6 +184,30 @@ a {
   padding-left: 20px;
   color: #ba595d;
 }
+.inputEmail{
+  background: transparent;
+  border: none;
+  width: 87%;
+  right: 10px;
+  height: 50%;
+  outline-width: 0;
+}
+.inputFooter{
+  background: transparent;
+  border: none;
+  width: 83%;
+  right: 30px;
+  height: 50%;
+  outline-width: 0;
+}
+.inputBiografia{
+  width: 55%;
+  left: 5px;
+  background: transparent;
+  border: none;
+  height: 50%;
+  outline-width: 0;
+}
 .buttonReserva {
   color: white;
   font-size: 2.5rem;
@@ -699,6 +723,21 @@ a {
 
   * {
     box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonReserva {
+    font-size: 1.5rem;
+  }
+  .botaoVideo {
+    font-size: 1.5rem;
+  }
+  .inputEmail{
+    right: 40px;
+  }
+  .containerTopo{
+    margin-top: 200px;
   }
 }
 /* SCROLLBAR */

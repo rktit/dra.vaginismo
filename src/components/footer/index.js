@@ -10,6 +10,21 @@ import botaoFooter from '../../assets/cta/botao-footer.png'
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
+  const [data, setData] = useState(
+    {
+      id:"620363",
+      mid:"620363",
+      pid:"20795733",
+      list_id:"620363",
+      provider:"leadlovers",
+      email: '',
+      phone: '',
+    }
+  );
+
+  const handleChange = (e) => {
+    setData({...data, [e.target.name] : e.target.value});
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
@@ -43,7 +58,7 @@ export default function Page(props) {
           </div>
 
             <div className="footerText">Política de Privacidade | Termo de Uso <br />
-            Este site não é afiliado ao Faccebook ou a qualquer entidade do Facebook. A Série Encontro Mulheres Livres ensina conceitos através de técnicas atualizadas e validadas. Os conteúdos tem caráter meramente informativo e educativo, não constitui e nem deve ser interpretado como recomendação obrigatória. Todas as informações contidas e compartilhadas são meramente indicativas, elas podem não refletir os sintomas reais dependendo de cada caso. Todos os participantes que ministram esta série, não se responsabilizam por decisões que venham a ser tomadas com base nas informações divulgadas e se eximem de qualquer responsabilidade, quaisquer prejuízos, diretos ou indiretos, que cenham a decorrer da utilização deste material ou seu conteúdo. Os conteúdos disponibilizados têm como único propósito fomentar a educação e autoconhecimento das mulheres. Ao se cadastrar para assistir o conteúdo, você está concordando com os termos de nossa Política de Privacidade e Termos de Uso. 
+            Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. A Série Encontro Mulheres Livres ensina conceitos através de técnicas atualizadas e validadas. Os conteúdos tem caráter meramente informativo e educativo, não constitui e nem deve ser interpretado como recomendação obrigatória. Todas as informações contidas e compartilhadas são meramente indicativas, elas podem não refletir os sintomas reais dependendo de cada caso. Todos os participantes que ministram esta série, não se responsabilizam por decisões que venham a ser tomadas com base nas informações divulgadas e se eximem de qualquer responsabilidade, quaisquer prejuízos, diretos ou indiretos, que cenham a decorrer da utilização deste material ou seu conteúdo. Os conteúdos disponibilizados têm como único propósito fomentar a educação e autoconhecimento das mulheres. Ao se cadastrar para assistir o conteúdo, você está concordando com os termos de nossa Política de Privacidade e Termos de Uso. 
             </div>
         </Fade>
       </div>
@@ -61,22 +76,28 @@ export default function Page(props) {
               <img src={logo} className="flex justify-self-center justify-center"/>
               </div>
             </div>
-            
-            <div className="flex flex-wrap justify-self-center justify-center pt-10">
-              <div className="relative flex justify-center">
-                <img src={botaoFooter} className="flex botaoFooter px-2" />
-                <div className="absolute buttonFooter pr-20">Seu e-mail principal</div>
+            <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
+              <input id="id" name="id" type="hidden" value="620363" />
+              <input id="mid" name="mid" type="hidden" value="620363" />
+              <input id="pid" name="pid" type="hidden" value="20795733" />
+              <input id="list_id" name="list_id" type="hidden" value="620363" />
+              <input id="provider" name="provider" type="hidden" value="leadlovers" />
+              <input type="hidden" id="source" name="source" value="" />
+              <div className="flex flex-wrap justify-self-center justify-center pt-10">
+                <div className="relative flex justify-center">
+                  <img src={botaoFooter} className="flex botaoFooter px-2" />
+                  <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
+                </div>
+                <div className="relative flex justify-center">
+                  <img src={botaoFooter} className="flex botaoFooter px-2" />
+                  <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
+                </div>
+                <div className="relative flex justify-center">
+                  <img src={botao} className="flex botaoVaga" />
+                  <button type="submit" className="absolute buttonVaga">Reservar minha vaga</button>
+                </div>
               </div>
-              <div className="relative flex justify-center">
-                <img src={botaoFooter} className="flex botaoFooter px-2" />
-                <div className="flex absolute buttonFooter pr-32">DDD + Celular</div>
-              </div>
-              <div className="relative flex justify-center">
-                <img src={botao} className="flex botaoVaga" />
-                <div className="absolute buttonVaga px-2">Reservar minha vaga</div>
-              </div>
-            </div>
-
+            </form>
             <div className="textFooter pt-10">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.
             </div>
 

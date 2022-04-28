@@ -11,6 +11,17 @@ import contato from '../../assets/cta/botao.png'
 export default function Page(props) {
     const btnScrollTop = useRef(null)
     const [showBtn, setShowBtn] = useState(false)
+    const [data, setData] = useState(
+        {
+          id:"620363",
+          mid:"620363",
+          pid:"20795733",
+          list_id:"620363",
+          provider:"leadlovers",
+          email: '',
+          phone: '',
+        }
+    );
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
@@ -22,6 +33,10 @@ export default function Page(props) {
         } else {
             setShowBtn(false)
         }
+    }
+
+    const handleChange = (e) => {
+        setData({...data, [e.target.name] : e.target.value});
     }
 
     const [isMobile, setMobile] = useState(false)
@@ -55,20 +70,28 @@ export default function Page(props) {
                     <br />
                     essa disfunção e como conseguir a cura.
                 </div>
-                <div className="flex flex-wrap justify-center space-x-2 pt-6">
-                    <div className="relative flex">
-                        <img src={contato} className="flex contato-botao" />
-                        <div className="absolute contato-button">Seu e-mail principal</div>
+                <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
+                    <input id="id" name="id" type="hidden" value="620363" />
+                    <input id="mid" name="mid" type="hidden" value="620363" />
+                    <input id="pid" name="pid" type="hidden" value="20795733" />
+                    <input id="list_id" name="list_id" type="hidden" value="620363" />
+                    <input id="provider" name="provider" type="hidden" value="leadlovers" />
+                    <input type="hidden" id="source" name="source" value="" />
+                    <div  className="flex flex-wrap justify-center space-x-2 pt-6">
+                        <div className="relative flex mt-2">
+                            <img src={contato} className="flex botaoContato"/>
+                            <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
+                        </div>
+                        <div className="relative flex mt-2">
+                            <img src={contato} className="flex botaoContato"/>
+                            <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="Informe o telefone" type="text" onChange={handleChange}/>
+                        </div>
                     </div>
-                    <div className="relative flex">
-                        <img src={contato} className="flex contato-botao" />
-                        <div className="absolute contato-button">DDD + Celular</div>
+                    <div className="relative flex justify-center pt-4">
+                        <img src={botao} className="flex buttonVideo" />
+                        <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
                     </div>
-                </div>
-                <div className="relative flex justify-center pt-4">
-                    <img src={botao} className="flex button-video" />
-                    <div className="absolute botao-video">Reservar minha vaga</div>
-                </div >  
+                </form>
             </div>
             </Fade>
         :
@@ -92,22 +115,28 @@ export default function Page(props) {
                         <br />
                         essa disfunção e como conseguir a cura.
                     </div>
-
-                    <div className="flex flex-wrap justify-center space-x-14 pt-10">
-                        <div className="relative flex  pt-3">
-                            <img src={contato} className="flex contatoBotao" />
-                            <div className="absolute contatoButton">Seu e-mail principal</div>
+                    <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
+                        <input id="id" name="id" type="hidden" value="620363" />
+                        <input id="mid" name="mid" type="hidden" value="620363" />
+                        <input id="pid" name="pid" type="hidden" value="20795733" />
+                        <input id="list_id" name="list_id" type="hidden" value="620363" />
+                        <input id="provider" name="provider" type="hidden" value="leadlovers" />
+                        <input type="hidden" id="source" name="source" value="" />
+                        <div  className="flex flex-wrap justify-center space-x-14 pt-4">
+                        <div className="relative flex pl-8 pt-3">
+                            <img src={contato} className="flex botaoContato"/>
+                            <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
                         </div>
-                        <div className="relative flex  pt-3">
-                            <img src={contato} className="flex contatoBotao" />
-                            <div className="absolute contatoButton">DDD + Celular</div>
+                        <div className="relative flex pl-8 pt-3">
+                            <img src={contato} className="flex botaoContato"/>
+                            <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="Informe o telefone" type="text" onChange={handleChange}/>
                         </div>
-                    </div>
-                    <div className="relative flex justify-center pt-10">
-                        <img src={botao} className="flex buttonVideo" />
-                        <div className="absolute botaoVideo">Reservar minha vaga</div>
-                    </div>
-
+                        </div>
+                        <div className="relative flex justify-center pt-10">
+                            <img src={botao} className="flex buttonVideo" />
+                            <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
+                        </div>
+                    </form>
                 </div>
             </Fade>
         </ScrollableAnchor>
