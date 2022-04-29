@@ -59,9 +59,9 @@ export default function Page(props) {
       <div className="px-2 containerTopo">
         <Fade>
           <div className="titulo-reserva">Sua dor durante a relação
-            <strong className="titulo-reserva"> não é normal!</strong>
+            <strong> não é normal!</strong>
           </div>
-          <div className="text-reserva pt-6">Entenda o que é a sua dor e<strong className="text-reserva"> descubra como ser livre</strong>!</div>
+          <div className="text-reserva pt-2">Entenda o que é a sua dor e<strong className="text-reserva"> descubra como ser livre</strong>!</div>
           <form action="https://paginas.rocks/capture" method="post" >
             <input id="id" name="id" type="hidden" value="619211" />
             <input id="mid" name="mid" type="hidden" value="619211" />
@@ -71,23 +71,23 @@ export default function Page(props) {
             <input type="hidden" id="source" name="source" value="" />
             <div className="flex flex-wrap justify-center pt-2">
               <div className="relative flex">
-                <img src={contatoMobile} className="flex botaoContato" />
-                <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
+                <img src={contatoMobile} className="flex botao-contato" />
+                <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
               </div>
               <div className="relative flex">
-                <img src={contatoMobile} className="flex botaoContato" />
-                <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                <img src={contatoMobile} className="flex botao-contato" />
+                <input class="absolute button-contato inputEmail pr-4" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
               </div>
             </div>
-            <div className="relative flex justify-center pt-4">
-              <img src={botao} className="flex reservaButton" />
-              <button type="submit" className="absolute buttonReserva" onClick={() => sendForm()}>Reservar minha vaga</button>
+            <div className="relative flex justify-center pt-2">
+              <img src={botao} className="flex reserva-button" />
+              <button type="submit" className="absolute button-reserva" onClick={() => sendForm()}>Reservar minha vaga</button>
             </div>
           </form>
-          <div className="evento pt-2">Evento <strong>gratuito</strong> e
+          <div className="eventoText pt-2">Evento <strong>gratuito</strong> e
             <strong> online</strong>. Reserve agora!</div>
 
-          <div className="text-evento pt-4 pb-2">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
+          <div className="text-evento pb-2">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
         </Fade>
       </div>
       </ ScrollableAnchor>

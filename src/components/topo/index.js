@@ -36,10 +36,9 @@ export default function Page(props) {
     isMobile ?
       <div className="flex flex-col bgTopo">
           <div className="flex-auto">
-            <div className="flex topImg">
-            <img src={logo} className="flex items-center mb-64" width="200"/>
+            <div className="flex topImg pt-2">
+            <img src={logo} className="flex items-center pb-60 p-2" width="180"/>
             </div>
-            <img src={contato} className="invisible pt-52" />
           </div>
         <Reservar />
       </div>

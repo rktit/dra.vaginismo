@@ -494,24 +494,21 @@ a {
   fill: black !important;
 }
 
-
-@media (max-width: 425px) {
+@media screen and (min-device-width: 380px) and (max-device-width: 435px) {
   .bgTopo {
     background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
-    background-size: cover;
-    width: 100vw; 
-    
+    background-size: cover; 
+    width: 100%;   
   }
   .topImg {
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .titulo-reserva {
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 0.1em;
-    padding-top: 14px;
   }
   .text-reserva {
     text-align: center;
@@ -527,7 +524,7 @@ a {
     opacity: 0.7;
   }
   .button-contato {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     align-self: center;
     vertical-align: middle;
@@ -548,16 +545,16 @@ a {
       align-self: center;
       align-content: center;
   }
-  .evento {
+  .eventoText {
     text-align: center;
     color: #ba595d;
     text-transform: uppercase;
     letter-spacing: 0.025em;
     font-family: LeagueSpartan-Regular;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .text-evento {
-    font-size: 0.7rem;
+    font-size: 0.4rem;
     text-align: center;
     color: #746a69;
   }
@@ -631,7 +628,7 @@ a {
     font-family: LeagueSpartan-Medium;
   }
   .button-video {
-    width: 320px;
+    width: 350px;
     align-items: center;
     opacity: 0.7;
   }
@@ -640,7 +637,7 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     align-self: center;
-    padding-top: 2px;
+    padding-top: 3px;
   }
   .tituloBio{
     text-align: center;
@@ -660,7 +657,7 @@ a {
     color: black;
     font-size: 0.8rem;
     padding-right: 16px;
-    line-height: 0.85rem;  
+    line-height: 1;  
   }
   .evento-img {
     justify-content: center;
