@@ -55,6 +55,7 @@ export default function Page(props) {
 
   return (
     isMobile ?
+    <ScrollableAnchor id={'reservar'}>
       <div className="px-2 containerTopo">
         <Fade>
           <div className="titulo-reserva">Sua dor durante a relação
@@ -89,6 +90,7 @@ export default function Page(props) {
           <div className="text-evento pt-4 pb-2">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
         </Fade>
       </div>
+      </ ScrollableAnchor>
       :
       <ScrollableAnchor id={'reservar'}>
         <div className="flex flex-col">

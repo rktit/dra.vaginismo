@@ -36,6 +36,8 @@ export default function Page(props) {
 
     return (
         isMobile ?
+        <ScrollableAnchor id={'line'}>
+
         <div className="bgfolder pt-10 px-4">
                 <Fade>
                     <div className="titulo-line">
@@ -50,9 +52,9 @@ export default function Page(props) {
                             <img src={timelineMobile} className="w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
-                            <div className="flex button-line px-10">
+                            <button onClick={() => window.location.href='#reservar'} className="flex buttonLine px-10">
                             <img src={botao} />
-                            </div> 
+                            </button> 
                         </div> 
                     </div>
                 </Fade>
@@ -60,6 +62,7 @@ export default function Page(props) {
                 <Video />
                 <Biografia />
             </div>
+            </ScrollableAnchor>
         :
         <ScrollableAnchor id={'line'}>
             <div className="bg-folder px-20">
