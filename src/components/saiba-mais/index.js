@@ -85,7 +85,7 @@ export default function Page(props) {
             </div>
             <div className="relative flex justify-start">
               <img src={botao} className="flex button-saiba pb-32" />
-              <button onClick={() => window.location = "https://wppbox.site/mulhereslivres"} type="submit" className="absolute botao-saiba pl-8 ">Entrar Agora</button>
+              <button onClick={() => window.location = "https://wppbox.site/mulhereslivres"} type="submit" className="absolute botao-saiba pl-7 ">Entrar Agora</button>
             </div >
           </div>
         </div>
