@@ -2,7 +2,7 @@
   "name": "new-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dravaginismo.com.br/encontromulhereslivres",
+  "homepage": "https://dravaginismo.com.br/encontromulhereslivres/obrigado",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
