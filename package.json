@@ -2,7 +2,7 @@
   "name": "new-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rocketit.com.br/dravaginismo/amanda-obrigado",
+  "homepage": "https://rocketit.com.br/amanda-obrigado",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
