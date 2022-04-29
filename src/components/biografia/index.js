@@ -115,7 +115,7 @@ export default function Page(props) {
                 </div>
             </Fade>
             :
-            <ScrollableAnchor id={'home'}>
+            <ScrollableAnchor id={'biografia'}>
                 <Fade>
                     <div className="pt-28 titulo-bio">
                         biografia

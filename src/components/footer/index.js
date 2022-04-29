@@ -63,7 +63,7 @@ export default function Page(props) {
         </Fade>
       </div>
     :
-    <ScrollableAnchor id={'home'}>
+    <ScrollableAnchor id={'rodape'}>
       
       <div className="bg-footer">
         <Fade>
@@ -76,11 +76,11 @@ export default function Page(props) {
               <img src={logo} className="flex justify-self-center justify-center"/>
               </div>
             </div>
-            <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
-              <input id="id" name="id" type="hidden" value="620363" />
-              <input id="mid" name="mid" type="hidden" value="620363" />
-              <input id="pid" name="pid" type="hidden" value="20795733" />
-              <input id="list_id" name="list_id" type="hidden" value="620363" />
+            <form action="https://paginas.rocks/capture" method="post" >
+              <input id="id" name="id" type="hidden" value="619211" />
+              <input id="mid" name="mid" type="hidden" value="619211" />
+              <input id="pid" name="pid" type="hidden" value="20798275" />
+              <input id="list_id" name="list_id" type="hidden" value="619211" />
               <input id="provider" name="provider" type="hidden" value="leadlovers" />
               <input type="hidden" id="source" name="source" value="" />
               <div className="flex flex-wrap justify-self-center justify-center pt-10">

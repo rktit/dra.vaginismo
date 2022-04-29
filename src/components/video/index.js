@@ -13,13 +13,13 @@ export default function Page(props) {
     const [showBtn, setShowBtn] = useState(false)
     const [data, setData] = useState(
         {
-          id:"620363",
-          mid:"620363",
-          pid:"20795733",
-          list_id:"620363",
-          provider:"leadlovers",
-          email: '',
-          phone: '',
+            id: "620363",
+            mid: "620363",
+            pid: "20795733",
+            list_id: "620363",
+            provider: "leadlovers",
+            email: '',
+            phone: '',
         }
     );
 
@@ -36,7 +36,7 @@ export default function Page(props) {
     }
 
     const handleChange = (e) => {
-        setData({...data, [e.target.name] : e.target.value});
+        setData({ ...data, [e.target.name]: e.target.value });
     }
 
     const [isMobile, setMobile] = useState(false)
@@ -51,60 +51,15 @@ export default function Page(props) {
 
     return (
         isMobile ?
-        <Fade>
-            <div className="titulo-video pb-2 pt-12">
-                Veja o que irá acontecer no nosso encontro
-            </div>
-            <div className="flex flex-col">
-                <div className="flex justify-center">
-                    <img src={video} className="flex img-video" />
-                </div>
-                <div className="descubra pt-2">
-                    Descubra se sua dor
-                </div>
-                <div className="durante">
-                    Durante a relação sexual tem cura!
-                </div>
-                <div className="entenda">
-                    Entenda o que é Vaginismo, saiba se você possui
-                    <br />
-                    essa disfunção e como conseguir a cura.
-                </div>
-                <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
-                    <input id="id" name="id" type="hidden" value="620363" />
-                    <input id="mid" name="mid" type="hidden" value="620363" />
-                    <input id="pid" name="pid" type="hidden" value="20795733" />
-                    <input id="list_id" name="list_id" type="hidden" value="620363" />
-                    <input id="provider" name="provider" type="hidden" value="leadlovers" />
-                    <input type="hidden" id="source" name="source" value="" />
-                    <div  className="flex flex-wrap justify-center space-x-2 pt-6">
-                        <div className="relative flex mt-2">
-                            <img src={contato} className="flex botaoContato"/>
-                            <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
-                        </div>
-                        <div className="relative flex mt-2">
-                            <img src={contato} className="flex botaoContato"/>
-                            <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="Informe o telefone" type="text" onChange={handleChange}/>
-                        </div>
-                    </div>
-                    <div className="relative flex justify-center pt-4">
-                        <img src={botao} className="flex buttonVideo" />
-                        <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
-                    </div>
-                </form>
-            </div>
-            </Fade>
-        :
-        <ScrollableAnchor id={'home'}>
             <Fade>
-                <div className="tituloVideo pb-10 pt-36">
+                <div className="titulo-video pb-2 pt-12">
                     Veja o que irá acontecer no nosso encontro
                 </div>
                 <div className="flex flex-col">
                     <div className="flex justify-center">
-                        <img src={video} className="flex imgVideo" />
+                        <img src={video} className="flex img-video" />
                     </div>
-                    <div className="descubra pt-8">
+                    <div className="descubra pt-2">
                         Descubra se sua dor
                     </div>
                     <div className="durante">
@@ -115,30 +70,75 @@ export default function Page(props) {
                         <br />
                         essa disfunção e como conseguir a cura.
                     </div>
-                    <form  action="https://paginas.rocks/capture" method="post" target='_blank'>
-                        <input id="id" name="id" type="hidden" value="620363" />
-                        <input id="mid" name="mid" type="hidden" value="620363" />
-                        <input id="pid" name="pid" type="hidden" value="20795733" />
-                        <input id="list_id" name="list_id" type="hidden" value="620363" />
+                    <form action="https://paginas.rocks/capture" method="post" >
+                        <input id="id" name="id" type="hidden" value="619211" />
+                        <input id="mid" name="mid" type="hidden" value="619211" />
+                        <input id="pid" name="pid" type="hidden" value="20798275" />
+                        <input id="list_id" name="list_id" type="hidden" value="619211" />
                         <input id="provider" name="provider" type="hidden" value="leadlovers" />
                         <input type="hidden" id="source" name="source" value="" />
-                        <div  className="flex flex-wrap justify-center space-x-14 pt-4">
-                        <div className="relative flex pl-8 pt-3">
-                            <img src={contato} className="flex botaoContato"/>
-                            <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
+                        <div className="flex flex-wrap justify-center space-x-2 pt-6">
+                            <div className="relative flex mt-2">
+                                <img src={contato} className="flex botaoContato" />
+                                <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
+                            </div>
+                            <div className="relative flex mt-2">
+                                <img src={contato} className="flex botaoContato" />
+                                <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                            </div>
                         </div>
-                        <div className="relative flex pl-8 pt-3">
-                            <img src={contato} className="flex botaoContato"/>
-                            <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="Informe o telefone" type="text" onChange={handleChange}/>
-                        </div>
-                        </div>
-                        <div className="relative flex justify-center pt-10">
+                        <div className="relative flex justify-center pt-4">
                             <img src={botao} className="flex buttonVideo" />
                             <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
                         </div>
                     </form>
                 </div>
             </Fade>
-        </ScrollableAnchor>
+            :
+            <ScrollableAnchor id={'video'}>
+                <Fade>
+                    <div className="tituloVideo pb-10 pt-36">
+                        Veja o que irá acontecer no nosso encontro
+                    </div>
+                    <div className="flex flex-col">
+                        <div className="flex justify-center">
+                            <img src={video} className="flex imgVideo" />
+                        </div>
+                        <div className="descubra pt-8">
+                            Descubra se sua dor
+                        </div>
+                        <div className="durante">
+                            Durante a relação sexual tem cura!
+                        </div>
+                        <div className="entenda">
+                            Entenda o que é Vaginismo, saiba se você possui
+                            <br />
+                            essa disfunção e como conseguir a cura.
+                        </div>
+                        <form action="https://paginas.rocks/capture" method="post" >
+                            <input id="id" name="id" type="hidden" value="619211" />
+                            <input id="mid" name="mid" type="hidden" value="619211" />
+                            <input id="pid" name="pid" type="hidden" value="20798275" />
+                            <input id="list_id" name="list_id" type="hidden" value="619211" />
+                            <input id="provider" name="provider" type="hidden" value="leadlovers" />
+                            <input type="hidden" id="source" name="source" value="" />
+                            <div className="flex flex-wrap justify-center space-x-14 pt-4">
+                                <div className="relative flex pl-8 pt-3">
+                                    <img src={contato} className="flex botaoContato" />
+                                    <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
+                                </div>
+                                <div className="relative flex pl-8 pt-3">
+                                    <img src={contato} className="flex botaoContato" />
+                                    <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                                </div>
+                            </div>
+                            <div className="relative flex justify-center pt-10">
+                                <img src={botao} className="flex buttonVideo" />
+                                <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
+                            </div>
+                        </form>
+                    </div>
+                </Fade>
+            </ScrollableAnchor>
     )
 }

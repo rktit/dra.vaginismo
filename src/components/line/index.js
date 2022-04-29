@@ -61,7 +61,7 @@ export default function Page(props) {
                 <Biografia />
             </div>
         :
-        <ScrollableAnchor id={'home'}>
+        <ScrollableAnchor id={'line'}>
             <div className="bg-folder px-20">
                 <Fade>
                     <div className="tituloLine pt-14">
@@ -76,9 +76,9 @@ export default function Page(props) {
                             <img src={timeline} className="w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
-                            <div className="flex buttonLine">
+                            <button onClick={() => window.location.href='#reservar'} className="flex buttonLine">
                             <img src={botao} />
-                            </div> 
+                            </button> 
                         </div> 
                     </div>
                 </Fade>
