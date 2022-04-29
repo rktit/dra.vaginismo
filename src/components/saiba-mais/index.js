@@ -73,7 +73,7 @@ export default function Page(props) {
               </div>
               <div className="relative flex justify-start pb-9">
                 <img src={botao} className="flex button-saiba" />
-                <button onClick={() => window.location = "https://dravaginismo.com.br/"} type="submit" className="absolute botao-saiba">Saiba Mais</button>
+                <button onClick={() => window.location = "https://dravaginismo.com.br/encontromulhereslivres"} type="submit" className="absolute botao-saiba">Saiba Mais</button>
               </div >
           </div>
         </div>
