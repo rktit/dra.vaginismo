@@ -872,13 +872,13 @@ a {
     margin-top: 355px;  
 }
 }
-@media (max-width: 390px) {
+@media (max-width: 397px) {
   .topImg {
     justify-content: center;
   }
   .imageTopo {
     width: 180px;
-    padding-bottom: 135px;
+    padding-bottom: 140px;
   }
   .titulo-topo {
     text-align: center;
