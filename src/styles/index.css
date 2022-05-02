@@ -153,13 +153,18 @@ a {
   animation-duration: 2s;
 }
 .bg-topo {
-  background: url(../assets/background/bg-topo.jpeg) center top no-repeat;
+  background: url(../assets/background/bg-topo2.jpeg) center top no-repeat;
   background-size: cover; 
   width: 100vw;
 }
 .top-img {
   padding-top: 14px;
   justify-content: center;
+}
+.bg-topo {
+  background: url(../assets/background/reservar-bg.jpeg) center top no-repeat;
+  background-size: cover; 
+  width: 100vw;
 }
 .tituloReserva {
   text-align: center;
@@ -494,21 +499,11 @@ a {
   fill: black !important;
 }
 
-@media screen and (min-device-width: 380px) and (max-device-width: 435px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 620px) {
   .bgTopo {
     background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
     background-size: cover; 
     width: 100%;   
-  }
-  .topImg {
-    justify-content: center;
-    padding-top: 10px;
-  }
-  .titulo-reserva {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 0.1em;
   }
   .text-reserva {
     text-align: center;
@@ -777,7 +772,182 @@ a {
     padding-top: 18px;
   }
 }
+@media (max-width: 640px) {
 
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 290px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    margin-top: 418px;  
+  }
+}
+@media (max-width: 620px) {
+ 
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 302px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    margin-top: 380px;  
+}
+}
+@media (max-width: 600px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 300px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    margin-top: 418px;  
+}
+}
+@media (max-width: 580px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 274px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    margin-top: 418px;  
+}
+}
+@media (max-width: 540px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 224px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    margin-top: 418px;  
+}
+}
+@media (max-width: 420px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 240px;
+    padding-bottom: 72px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    margin-top: 418px;  
+}
+}
+@media (max-width: 380px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 180px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    margin-top: 328px;  
+}
+}
+@media (max-width: 340px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 180px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    margin-top: 280px;  
+}
+.text-reserva {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ba595d;
+  font-size: 0.5rem;
+  letter-spacing: 0.1em;
+  font-family: LeagueSpartan-Medium;
+}
+.botao-contato {
+  width: 150px;
+  height: 36px;
+  opacity: 0.7;
+}
+.button-contato {
+  font-size: 0.8rem;
+  text-align: center;
+  align-self: center;
+  vertical-align: middle;
+  color: #ba595d;
+  font-family: LeagueSpartan-Medium;
+}
+.button-reserva {
+  color: white;
+  font-size: 1.5rem;
+  align-self: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-family: LeagueSpartan-Regular;
+  padding-top: 4px;
+}
+.reserva-button {
+    width: 340px;
+    align-self: center;
+    align-content: center;
+}
+.eventoText {
+  text-align: center;
+  color: #ba595d;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  font-family: LeagueSpartan-Regular;
+  font-size: 0.7rem;
+}
+.text-evento {
+  font-size: 0.4rem;
+  text-align: center;
+  color: #746a69;
+}
+}
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
   * {

@@ -86,7 +86,7 @@ export default function Page(props) {
               <div className="flex flex-wrap justify-self-center justify-center pt-10">
                 <div className="relative flex justify-center">
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
-                  <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
+                  <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/>
                 </div>
                 <div className="relative flex justify-center">
                   <img src={botaoFooter} className="flex botaoFooter px-2" />

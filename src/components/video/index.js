@@ -80,7 +80,7 @@ export default function Page(props) {
                         <div className="flex flex-wrap justify-center space-x-2 pt-2">
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
+                                <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
                             </div>
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
@@ -125,7 +125,7 @@ export default function Page(props) {
                             <div className="flex flex-wrap justify-center space-x-14 pt-4">
                                 <div className="relative flex pl-8 pt-3">
                                     <img src={contato} className="flex botaoContato" />
-                                    <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange} />
+                                    <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
                                 </div>
                                 <div className="relative flex pl-8 pt-3">
                                     <img src={contato} className="flex botaoContato" />

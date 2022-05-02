@@ -64,8 +64,7 @@ export default function Page(props) {
                     e especialista em <strong>Fisioterapia Pélvica e Sexologia</strong>, com foco na sáude íntima feminina.
                     <br /><br />
                     Há mais de 7 anos trabalho com mulheres com dor durante a relação sexual.
-                    E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de<br />
-                        450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
+                    E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
                     <br /><br />
                     Diariamente compartilho muito conhecimento e qualidade de vida com milhares de
                     mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a> e no

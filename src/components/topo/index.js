@@ -34,23 +34,31 @@ export default function Page(props) {
 
   return (
     isMobile ?
-      <div className="flex flex-col bgTopo">
-          <div className="flex-auto">
-            <div className="flex topImg pt-2">
-            <img src={logo} className="flex items-center pb-60 p-2" width="180"/>
+    <div className="flex-auto bgTopo">
+      <div className="flex-auto flex-col">
+          <div className="flex-auto pt-7">
+            <div className="flex topImg ">
+            <img src={logo} className="imageTopo flex items-center "/>
             </div>
+          </div>
+          </div>
+          <div className="titulo-topo">Sua dor durante a relação
+            <strong> não é normal!</strong>
           </div>
         <Reservar />
       </div>
       :
     <ScrollableAnchor id={'home'}>
       <div className="bg-topo">
-          <div className="flex-auto">
-            <div className="flex top-img">
+          <div className="flex-auto pt-7">
+            <div className="flex top-img pb-3">
             <img src={logo} className="flex" width="400"/>
             </div>
-            <img src={contato} className="invisible py-48" />
+            <img src={contato} className="invisible pt-80" />
           </div>
+          <div className="tituloTopo tracking-widest">Sua dor durante a relação
+              <strong> não é normal!</strong>
+            </div>
         <Reservar />
       </div>
     </ScrollableAnchor>
