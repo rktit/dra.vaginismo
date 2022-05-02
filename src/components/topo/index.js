@@ -51,10 +51,10 @@ export default function Page(props) {
     <ScrollableAnchor id={'home'}>
       <div className="bg-topo">
           <div className="flex-auto pt-7">
-            <div className="flex top-img pb-3">
+            <div className="flex top-img pb-0">
             <img src={logo} className="flex" width="400"/>
             </div>
-            <img src={contato} className="invisible pt-80" />
+            <img src={contato} className="imagemOculta" />
           </div>
           <div className="tituloTopo tracking-widest">Sua dor durante a relação
               <strong> não é normal!</strong>

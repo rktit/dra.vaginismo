@@ -154,19 +154,22 @@ a {
 }
 .bg-topo {
   background: url(../assets/background/bg-topo2.jpeg) center top no-repeat;
-  background-size: cover; 
+  background-size: contain; 
   width: 100vw;
 }
 .top-img {
-  padding-top: 14px;
   justify-content: center;
 }
-.bg-topo {
-  background: url(../assets/background/reservar-bg.jpeg) center top no-repeat;
+.imagemOculta {
+  padding-bottom: 330px;
+  visibility: hidden;
+}
+.bg-reservar {
+  background: url(../assets/background/bg-reservar.jpeg) center top no-repeat;
   background-size: cover; 
   width: 100vw;
 }
-.tituloReserva {
+.tituloTopo {
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
