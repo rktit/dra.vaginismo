@@ -157,22 +157,11 @@ a {
   background-size: contain; 
   width: 100vw;
 }
-.top-img {
-  justify-content: center;
-}
-.imagemOculta {
-  padding-bottom: 330px;
-  visibility: hidden;
-}
+
 .bg-reservar {
   background: url(../assets/background/bg-reservar.jpeg) center top no-repeat;
   background-size: cover; 
   width: 100vw;
-}
-.tituloTopo {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3rem;
 }
 .textReserva {
   text-align: center;
@@ -502,6 +491,35 @@ a {
   fill: black !important;
 }
 
+@media (max-width: 1620px) {
+  .tituloTopo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+  }
+.top-img {
+  justify-content: center;
+}
+.imagemOculta {
+  padding-bottom: 405px;
+  visibility: hidden;
+}
+}
+@media (max-width: 1340px) {
+  .tituloTopo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: -10px;
+  }
+  .top-img {
+    justify-content: center;
+  }
+  .imagemOculta {
+    padding-bottom: 310px;
+    visibility: hidden;
+  }
+  }
 @media screen and (min-device-width: 320px) and (max-device-width: 620px) {
   .bgTopo {
     background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
@@ -775,23 +793,7 @@ a {
     padding-top: 18px;
   }
 }
-@media (max-width: 640px) {
 
-  .topImg {
-    justify-content: center;
-  }
-  .imageTopo {
-    width: 260px;
-    padding-bottom: 290px;
-  }
-  .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: 0.1em;
-    margin-top: 418px;  
-  }
-}
 @media (max-width: 620px) {
  
   .topImg {
