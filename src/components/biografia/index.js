@@ -94,7 +94,7 @@ export default function Page(props) {
                             <div className="flex flex-col justify-start">
                         <div className="relative flex">
                             <img src={contato} className="flex folder-botao" />
-                            <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu e-mail principal" type="text" onChange={handleChange}/>
+                            <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/>
                         </div>
                         <div className="relative flex mt-3">
                             <img src={contato} className="flex folder-botao" />

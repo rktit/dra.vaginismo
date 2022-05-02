@@ -155,7 +155,6 @@ a {
 .bg-topo {
   background: url(../assets/background/bg-topo2.jpeg) center top no-repeat;
   background-size: contain; 
-  width: 100vw;
 }
 
 .bg-reservar {
@@ -491,7 +490,7 @@ a {
   fill: black !important;
 }
 
-@media (max-width: 1620px) {
+@media (max-width: 1720px) {
   .tituloTopo {
     text-align: center;
     text-transform: uppercase;
@@ -501,7 +500,7 @@ a {
   justify-content: center;
 }
 .imagemOculta {
-  padding-bottom: 405px;
+  padding-bottom: 400px;
   visibility: hidden;
 }
 }
@@ -510,13 +509,11 @@ a {
     text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
-    margin-bottom: -10px;
   }
   .top-img {
     justify-content: center;
   }
   .imagemOculta {
-    padding-bottom: 310px;
     visibility: hidden;
   }
   }
@@ -524,7 +521,7 @@ a {
   .bgTopo {
     background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
     background-size: cover; 
-    width: 100%;   
+    height: 100%;   
   }
   .text-reserva {
     text-align: center;
@@ -872,23 +869,32 @@ a {
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 0.1em;
-    margin-top: 418px;  
+    margin-top: 355px;  
 }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
   .topImg {
     justify-content: center;
   }
   .imageTopo {
     width: 180px;
+    padding-bottom: 135px;
   }
   .titulo-topo {
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 0.1em;
-    margin-top: 328px;  
+    margin-top: 280px;  
 }
+.text-reserva {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-family: LeagueSpartan-Medium;
+  }
 }
 @media (max-width: 340px) {
   .topImg {
