@@ -888,13 +888,13 @@ a {
     margin-top: 355px;  
 }
 }
-@media (max-width: 394px) {
+@media (max-width: 395px) {
   .topImg {
     justify-content: center;
   }
   .imageTopo {
     width: 180px;
-    padding-bottom: 134px;
+    padding-bottom: 138px;
   }
   .titulo-topo {
     text-align: center;
@@ -912,13 +912,13 @@ a {
     font-family: LeagueSpartan-Medium;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 392px) {
   .topImg {
     justify-content: center;
   }
   .imageTopo {
     width: 180px;
-    padding-bottom: 114px;
+    padding-bottom: 135px;
   }
   .titulo-topo {
     text-align: center;
