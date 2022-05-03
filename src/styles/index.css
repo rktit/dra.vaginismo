@@ -514,6 +514,18 @@ a {
   visibility: hidden;
 }
 }
+@media (max-width: 1500px){
+  .tituloTopo {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 1450px){
+  .tituloTopo {
+    margin-top: -70px;
+  }
+}
+
 @media (max-width: 1370px){
   .tituloTopo {
     margin-top: -100px;
