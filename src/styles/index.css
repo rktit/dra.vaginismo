@@ -1049,6 +1049,14 @@ a {
   .text-saiba {
     margin-top: -40px;
   }
+  .botao-folder {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    align-self: center;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
 }
 @media (max-width: 340px) {
   .topImg {
