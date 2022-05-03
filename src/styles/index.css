@@ -420,6 +420,7 @@ a {
   align-self: center;
   font-family: LeagueSpartan-Regular;
   padding-bottom: 100px;
+
 }
 .imgMac {
   width: 100%;
@@ -513,6 +514,53 @@ a {
   padding-bottom: 400px;
   visibility: hidden;
 }
+.bg-obrigadoDesk {
+  background: url(../assets/background/bg-obrigado.png) center center no-repeat;
+  background-size: cover; 
+  height: 100vh;
+}
+.saiba-title {
+  font-size: 6em;  
+  text-transform: uppercase;
+  color: #ac4b51;
+  font-family: LeagueSpartan-Medium;
+  text-align: center;
+  line-height: 0.75;
+  padding-left: 50px;
+}
+.saiba-obrigada {
+  font-size: 2em;  
+  color: #ac4b51;
+  font-family: LeagueSpartan-Regular;
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.saiba-text {
+  font-size: 1.5em;  
+  color: white;
+  font-family: LeagueSpartan-Regular;
+  text-align: center;
+  line-height: 1.2;
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.button-saiba {
+  width: 620px;
+  align-items: center;
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.botao-saiba {
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  align-self: center;
+  font-family: LeagueSpartan-Regular;
+  padding-bottom: 90px;
+  padding-left: 80px;
+}
 }
 @media (max-width: 1500px){
   .tituloTopo {
@@ -529,6 +577,53 @@ a {
 @media (max-width: 1370px){
   .tituloTopo {
     margin-top: -100px;
+  }
+  .bg-obrigadoDesk {
+    background: url(../assets/background/bg-obrigado.png) center center no-repeat;
+    background-size: cover; 
+    height: 100vh;
+  }
+  .saiba-title {
+    font-size: 6em;  
+    text-transform: uppercase;
+    color: #ac4b51;
+    font-family: LeagueSpartan-Medium;
+    text-align: center;
+    line-height: 0.75;
+    margin-left: -50px;
+  }
+  .saiba-obrigada {
+    font-size: 2em;  
+    color: #ac4b51;
+    font-family: LeagueSpartan-Regular;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: -20px;
+    margin-left: -50px;
+  }
+  .saiba-text {
+    font-size: 1.5em;  
+    color: white;
+    font-family: LeagueSpartan-Regular;
+    text-align: center;
+    line-height: 1.2;
+    margin-left: -70px;
+    margin-top: -60px;
+  }
+  .button-saiba {
+    width: 620px;
+    align-items: center;
+    padding-right: 60px;
+    margin-top: -10px;
+    margin-left: -40px;
+  }
+  .botao-saiba {
+    font-size: 4rem;
+    text-transform: uppercase;
+    align-self: center;
+    font-family: LeagueSpartan-Regular;
+    margin-bottom: 10px;
+    margin-left: -40px;
   }
 }
 @media (max-width: 1340px) {
