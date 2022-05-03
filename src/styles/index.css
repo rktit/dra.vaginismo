@@ -554,7 +554,7 @@ a {
   }
   .button-contato {
     font-size: 0.8rem;
-    text-align: center;
+    text-align: left;
     align-self: center;
     vertical-align: middle;
     color: #ba595d;
@@ -888,13 +888,37 @@ a {
     margin-top: 355px;  
 }
 }
-@media (max-width: 397px) {
+@media (max-width: 394px) {
   .topImg {
     justify-content: center;
   }
   .imageTopo {
     width: 180px;
-    padding-bottom: 140px;
+    padding-bottom: 134px;
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    margin-top: 280px;  
+}
+.text-reserva {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ba595d;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-family: LeagueSpartan-Medium;
+  }
+}
+@media (max-width: 380px) {
+  .topImg {
+    justify-content: center;
+  }
+  .imageTopo {
+    width: 180px;
+    padding-bottom: 114px;
   }
   .titulo-topo {
     text-align: center;
@@ -1010,7 +1034,7 @@ a {
     font-size: 1.5rem;
   }
   .inputEmail{
-    right: 40px;
+    right: 10px;
   }
   .containerTopo{
     margin-top: 200px;
