@@ -19,7 +19,7 @@ export default function Page(props) {
       return () => clearInterval(intervalRef.current);
     }else{
       
-      window.location.href = "./";
+      window.location.href = "https://dravaginismo.com.br/encontromulhereslivres/";
     }
   }, [count]);
 
