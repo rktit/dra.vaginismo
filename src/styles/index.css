@@ -946,6 +946,7 @@ a {
     letter-spacing: 0.1em;
     margin-top: 418px;  
 }
+
 }
 @media (max-width: 580px) {
   .topImg {
@@ -1018,6 +1019,9 @@ a {
     letter-spacing: 0.1em;
     font-family: LeagueSpartan-Medium;
   }
+  .text-saiba {
+    margin-top: -40px;
+  }
 }
 @media (max-width: 392px) {
   .topImg {
@@ -1041,6 +1045,9 @@ a {
     font-size: 0.75rem;
     letter-spacing: 0.1em;
     font-family: LeagueSpartan-Medium;
+  }
+  .text-saiba {
+    margin-top: -40px;
   }
 }
 @media (max-width: 340px) {
