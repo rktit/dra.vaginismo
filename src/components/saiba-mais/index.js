@@ -8,20 +8,7 @@ import botao from '../../assets/cta/cta-obrigado.png'
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false);
-  const [count, setCount] = useState(10);
-  const decreaseCount = () => setCount((prev) => prev - 1);
-  let intervalRef = useRef();
-  
-  useEffect(() => {
-    if (count > 0) {
-      intervalRef.current = setInterval(decreaseCount, 1000);
-
-      return () => clearInterval(intervalRef.current);
-    }else{
-      
-      window.location.href = "https://dravaginismo.com.br/encontromulhereslivres/";
-    }
-  }, [count]);
+ 
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
