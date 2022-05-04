@@ -660,10 +660,18 @@ a {
   }
   }
 @media screen and (min-device-width: 320px) and (max-device-width: 620px) {
+  .topImg {
+    justify-content: center;
+  }
   .bgTopo {
     background: url(../assets/background/bgtopo.jpeg) center top no-repeat;
     background-size: cover; 
     height: 100%;   
+  }
+  .titulo-topo {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
   }
   .text-reserva {
     text-align: center;
@@ -943,153 +951,124 @@ a {
     padding-bottom: 302px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1.2rem;
-    letter-spacing: 0.1em;
     margin-top: 380px;  
 }
 }
 @media (max-width: 600px) {
-  .topImg {
-    justify-content: center;
-  }
+  
   .imageTopo {
     width: 260px;
     padding-bottom: 300px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1.4rem;
-    letter-spacing: 0.1em;
-    margin-top: 418px;  
+    margin-top: 355px;  
 }
 
 }
 @media (max-width: 580px) {
-  .topImg {
-    justify-content: center;
-  }
+  
   .imageTopo {
     width: 260px;
     padding-bottom: 274px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1.2rem;
-    letter-spacing: 0.1em;
-    margin-top: 418px;  
+    margin-top: 360px;  
+}
+}
+@media (max-width: 560px) {
+  
+  .imageTopo {
+    width: 260px;
+    padding-bottom: 270px;
+  }
+  .titulo-topo {
+    font-size: 1.2rem;
+    margin-top: 335px;  
 }
 }
 @media (max-width: 540px) {
-  .topImg {
-    justify-content: center;
-  }
+  
   .imageTopo {
     width: 260px;
     padding-bottom: 224px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1.2rem;
-    letter-spacing: 0.1em;
-    margin-top: 418px;  
+    margin-top: 355px;  
 }
 }
 @media (max-width: 420px) {
-  .topImg {
-    justify-content: center;
-  }
+  
   .imageTopo {
     width: 240px;
     padding-bottom: 72px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1rem;
-    letter-spacing: 0.1em;
-    margin-top: 355px;  
+    margin-top: 364px;  
 }
 }
-@media (max-width: 395px) {
-  .topImg {
-    justify-content: center;
-  }
+@media (max-width: 396px) {
+  
   .imageTopo {
     width: 180px;
     padding-bottom: 138px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1rem;
-    letter-spacing: 0.1em;
-    margin-top: 280px;  
+    margin-top: 278px;  
 }
-.text-reserva {
-    text-align: center;
-    text-transform: uppercase;
-    color: #ba595d;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    font-family: LeagueSpartan-Medium;
-  }
   .text-saiba {
     margin-top: -40px;
   }
 }
-@media (max-width: 392px) {
-  .topImg {
-    justify-content: center;
-  }
+@media (max-width: 375px) {
+  
   .imageTopo {
     width: 180px;
     padding-bottom: 135px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 1rem;
-    letter-spacing: 0.1em;
-    margin-top: 280px;  
+    margin-top: 260px;  
 }
-.text-reserva {
-    text-align: center;
-    text-transform: uppercase;
-    color: #ba595d;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    font-family: LeagueSpartan-Medium;
-  }
   .text-saiba {
     margin-top: -40px;
   }
   .botao-folder {
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    align-self: center;
+    padding-left: 30px;
+    padding-top: 2px;
+  }
+}
+@media (max-width: 360px) {
+  
+  .imageTopo {
+    width: 180px;
+    padding-bottom: 135px;
+  }
+  .titulo-topo {
+    font-size: 0.95rem;
+    margin-top: 270px;  
+}
+  .text-saiba {
+    margin-top: -40px;
+  }
+  .botao-folder {
     padding-left: 30px;
     padding-top: 2px;
   }
 }
 @media (max-width: 340px) {
-  .topImg {
-    justify-content: center;
-  }
+  
   .imageTopo {
     width: 180px;
   }
   .titulo-topo {
-    text-align: center;
-    text-transform: uppercase;
     font-size: 0.8rem;
-    letter-spacing: 0.1em;
-    margin-top: 280px;  
+    margin-top: 217px;  
 }
 .text-reserva {
   text-align: center;

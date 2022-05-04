@@ -58,7 +58,7 @@ export default function Page(props) {
     <ScrollableAnchor id={'reservar'}>
       <div className="px-2">
         <Fade>
-          <div className="text-reserva pt-2">Entenda o que é a sua dor e<strong className="text-reserva"> descubra como ser livre</strong>!</div>
+          <div className="text-reserva pt-2">Entenda o que é a sua dor e<strong> descubra como ser livre</strong>!</div>
           <form action="https://paginas.rocks/capture" method="post" >
             <input id="id" name="id" type="hidden" value="619211" />
             <input id="mid" name="mid" type="hidden" value="619211" />
@@ -69,7 +69,7 @@ export default function Page(props) {
             <div className="flex flex-wrap justify-center pt-2">
               <div className="relative flex">
                 <img src={contatoMobile} className="flex botao-contato" />
-                <input class="absolute button-contato inputEmail pl-2" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                <input class="absolute button-contato inputEmail pl-1" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
               </div>
               <div className="relative flex">
                 <img src={contatoMobile} className="flex botao-contato" />
