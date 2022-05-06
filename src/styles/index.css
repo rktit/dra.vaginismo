@@ -499,7 +499,35 @@ a {
 .splide__arrow svg {
   fill: black !important;
 }
-
+@media (max-width: 1930px) {
+  .tituloTopo {
+    margin-top: 140px;
+  }
+.imagemOculta {
+  padding-bottom: 400px;
+  visibility: hidden;
+}
+.saiba-title {
+  padding-left: 50px;
+}
+.saiba-obrigada {
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.saiba-text {
+  padding-left: 50px;
+  padding-top: 150px;
+}
+.button-saiba {
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.botao-saiba {
+  padding-bottom: 90px;
+  padding-left: 80px;
+}
+}
 @media (max-width: 1720px) {
   .tituloTopo {
     text-align: center;
