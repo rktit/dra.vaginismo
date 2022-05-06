@@ -6,6 +6,7 @@ import botao from '../../assets/cta/botao-reservar.png'
 import contato from '../../assets/cta/botao.png'
 import contatoMobile from '../../assets/cta/CTAe-mail.png'
 import { sendLeadLovers } from '../../services/email.service';
+import Utils from '../../utils';
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
