@@ -20,12 +20,11 @@ const Home_Page = () => {
       <SaibaMais />
 
 
-    {/*  <Topo />
+     {/* <Topo />
        <Reservar />
-      <Line />
-      <Video />
-      <Biografia /> 
-      <Footer /> */}
+       <Video />
+      <Biografia />
+      <Footer />  */}
     </div>
   );
 };
