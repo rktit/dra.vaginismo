@@ -1,20 +1,20 @@
-//  import SaibaMais from "./saiba-mais";
+ import SaibaMais from "./saiba-mais";
 
-import Topo from "./topo";
-import Reservar from "./reservar";
-import Line from "./line";
-import Video from "./video";
-import Biografia from "./biografia";
-import Footer from "./footer";
+// import Topo from "./topo";
+// import Reservar from "./reservar";
+// import Line from "./line";
+// import Video from "./video";
+// import Biografia from "./biografia";
+// import Footer from "./footer";
 
 
 export {
-// SaibaMais,
+SaibaMais,
 
-Topo,
-Reservar,
-Line,
-Video,
-Biografia,
-Footer,
+// Topo,
+// Reservar,
+// Line,
+// Video,
+// Biografia,
+// Footer,
 };

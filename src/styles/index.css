@@ -508,24 +508,27 @@ a {
   visibility: hidden;
 }
 .saiba-title {
-  padding-left: 50px;
+  padding-left: 120px;
 }
 .saiba-obrigada {
   padding-bottom: 20px;
-  padding-left: 50px;
+  padding-left: 120px;
 }
 .saiba-text {
-  padding-left: 50px;
-  padding-top: 150px;
+  font-size: 2em;  
+  padding-left: 40px;
+  padding-top: 180px;
 }
 .button-saiba {
+  width: 780px;
   padding-right: 60px;
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 60px;
 }
 .botao-saiba {
+  font-size: 5rem;
   padding-bottom: 90px;
-  padding-left: 80px;
+  padding-left: 140px;
 }
 }
 @media (max-width: 1720px) {
