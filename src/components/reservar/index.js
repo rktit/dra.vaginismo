@@ -113,7 +113,7 @@ export default function Page(props) {
               </div>
               <div className="relative flex justify-center pt-10">
                 <img src={botao} className="flex reservaButton" />
-                <button type="submit" className="absolute buttonReserva">Reservar minha vaga</button>
+                <button type="submit" className="absolute buttonReserva" onClick={() => sendForm()}>Reservar minha vaga</button>
               </div>
             </form>
             <div className="evento pt-6">Evento <strong>gratuito</strong> e
