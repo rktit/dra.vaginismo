@@ -257,7 +257,8 @@ a {
 }
 .botaoVaga {
   align-items: center;
-  width: 360px;
+  width: 720px;
+  height: 60px;
 }
 .buttonEmail {
   width: 280px;

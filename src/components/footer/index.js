@@ -12,11 +12,11 @@ export default function Page(props) {
   const [showBtn, setShowBtn] = useState(false)
   const [data, setData] = useState(
     {
-      id:"620363",
-      mid:"620363",
-      pid:"20795733",
-      list_id:"620363",
-      provider:"leadlovers",
+      id: "619211",
+      mid: "619211",
+      pid: "20798275",
+      list_id: "619211",
+      provider: "leadlovers",
       email: '',
       phone: '',
     }
@@ -94,8 +94,8 @@ export default function Page(props) {
                   {/* <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/> */}
                 </div>
                 <div className="relative flex justify-center">
-                  <img src={botao} className="flex botaoVaga" />
-                  <button type="submit" className="absolute buttonVaga">Reservar minha vaga</button>
+                  <img src={botao} className="absolute flex botaoVaga" />
+                  <button type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>
             </form>

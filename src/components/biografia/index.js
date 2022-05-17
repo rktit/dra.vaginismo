@@ -12,13 +12,13 @@ export default function Page(props) {
     const [showBtn, setShowBtn] = useState(false)
     const [data, setData] = useState(
         {
-          id:"620363",
-          mid:"620363",
-          pid:"20795733",
-          list_id:"620363",
-          provider:"leadlovers",
-          email: '',
-          phone: '',
+            id: "619211",
+            mid: "619211",
+            pid: "20798275",
+            list_id: "619211",
+            provider: "leadlovers",
+            email: '',
+            phone: '',
         }
     );
     useEffect(() => {
@@ -34,7 +34,7 @@ export default function Page(props) {
     }
 
     const handleChange = (e) => {
-        setData({...data, [e.target.name] : e.target.value});
+        setData({ ...data, [e.target.name]: e.target.value });
     }
 
     const [isMobile, setMobile] = useState(false)
@@ -92,14 +92,22 @@ export default function Page(props) {
                     <input id="list_id" name="list_id" type="hidden" value="619211" />
                     <input id="provider" name="provider" type="hidden" value="leadlovers" />
                     <input type="hidden" id="source" name="source" value="" />
-                            <div className="flex flex-col justify-start">
+                    <div className="flex flex-col justify-start">
                         <div className="relative flex">
                             <img src={contato} className="flex folder-botao" />
+<<<<<<< HEAD
                             {/* <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/> */}
                         </div>
                         <div className="relative flex mt-3">
                             <img src={contato} className="flex folder-botao" />
                             {/* <input class="absolute inputBiografia folder-button" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/> */}
+=======
+                            <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                        </div>
+                        <div className="relative flex mt-3">
+                            <img src={contato} className="flex folder-botao" />
+                            <input class="absolute inputBiografia folder-button" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+>>>>>>> 55fb6313b1d95eb271b11eb904876f87b7f6ecfc
                         </div>
                     </div>
                     <div className="relative flex justify-start pt-7">
@@ -107,7 +115,7 @@ export default function Page(props) {
                         <button type="submit" className="absolute botao-folder">Reservar minha vaga</button>
                     </div >
                 </form>
-                
+
                 <div className="flex-auto">
                     <div className="flex folder-img">
                         <img src={logo} className="flex pb-4" width="170" />
@@ -132,7 +140,7 @@ export default function Page(props) {
                         <br /><br />
                         Há mais de 7 anos trabalho com mulheres com dor durante a relação sexual.
                         E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de<br />
-                        450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
+                            450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
                         <br /><br />
                         Diariamente compartilho muito conhecimento e qualidade de vida com milhares de
                         mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a> e no

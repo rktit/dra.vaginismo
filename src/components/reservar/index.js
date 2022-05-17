@@ -27,10 +27,10 @@ export default function Page(props) {
   const [isMobile, setMobile] = useState(false)
   const [data, setData] = useState(
     {
-      id: "620363",
-      mid: "620363",
-      pid: "20795733",
-      list_id: "620363",
+      id: "619211",
+      mid: "619211",
+      pid: "20798275",
+      list_id: "619211",
       provider: "leadlovers",
       email: '',
       phone: '',
@@ -78,7 +78,7 @@ export default function Page(props) {
               </div>
             </div>
             <div className="relative flex justify-center pt-2">
-              <img src={botao} className="flex reserva-button" />
+              <img src={botao} className="absolute flex reserva-button" />
               <button type="submit" className="absolute button-reserva" >Reservar minha vaga</button>
             </div>
           </form>
@@ -112,7 +112,7 @@ export default function Page(props) {
                 </div>
               </div>
               <div className="relative flex justify-center pt-10">
-                <img src={botao} className="flex reservaButton" />
+                <img src={botao} className="absolute flex reservaButton" />
                 <button type="submit" className="absolute buttonReserva" >Reservar minha vaga</button>
               </div>
             </form>
