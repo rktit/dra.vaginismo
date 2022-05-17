@@ -88,7 +88,7 @@ export default function Page(props) {
                             </div>
                         </div>
                         <div className="relative flex justify-center pt-4">
-                            <img src={botao} className="flex button-video" />
+                            <img src={botao} className="absolute flex button-video" />
                             <button type="submit" className="absolute botao-video">Reservar minha vaga</button>
                         </div>
                     </form>
@@ -133,8 +133,8 @@ export default function Page(props) {
                                 </div>
                             </div>
                             <div className="relative flex justify-center pt-10">
-                                <img src={botao} className="flex buttonVideo" />
-                                <button type="submit" className="absolute botaoVideo">Reservar minha vaga</button>
+                                <img src={botao} className="absolute flex buttonVideo" />
+                                <button type="submit" className="absolute botaoVideo pt-8">Reservar minha vaga</button>
                             </div>
                         </form>
                     </div>

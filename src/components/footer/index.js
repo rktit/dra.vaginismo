@@ -93,8 +93,8 @@ export default function Page(props) {
                   <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
                 </div>
                 <div className="relative flex justify-center">
-                  <img src={botao} className="flex botaoVaga" />
-                  <button type="submit" className="absolute buttonVaga">Reservar minha vaga</button>
+                  <img src={botao} className="absolute flex botaoVaga" />
+                  <button type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>
             </form>
