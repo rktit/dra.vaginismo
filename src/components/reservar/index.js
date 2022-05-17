@@ -42,7 +42,7 @@ export default function Page(props) {
   }
 
   const sendForm = async () => {
-    console.log('saiba-mais');
+    console.log('LOAD');
     const result = await sendLeadLovers(data);
   }
 
