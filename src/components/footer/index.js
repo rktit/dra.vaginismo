@@ -76,7 +76,8 @@ export default function Page(props) {
               <img src={logo} className="flex justify-self-center justify-center"/>
               </div>
             </div>
-            <form action="https://paginas.rocks/capture" method="post" >
+            {/* <form action="https://paginas.rocks/capture" method="post" > */}
+            <form>
               <input id="id" name="id" type="hidden" value="619211" />
               <input id="mid" name="mid" type="hidden" value="619211" />
               <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -86,11 +87,11 @@ export default function Page(props) {
               <div className="flex flex-wrap justify-self-center justify-center pt-10">
                 <div className="relative flex justify-center">
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
-                  <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/>
+                  {/* <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/> */}
                 </div>
                 <div className="relative flex justify-center">
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
-                  <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
+                  {/* <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/> */}
                 </div>
                 <div className="relative flex justify-center">
                   <img src={botao} className="flex botaoVaga" />

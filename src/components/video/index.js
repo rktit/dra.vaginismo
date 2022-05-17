@@ -70,7 +70,8 @@ export default function Page(props) {
                         <br />
                         essa disfunção e como conseguir a cura.
                     </div>
-                    <form action="https://paginas.rocks/capture" method="post" >
+                    {/* <form action="https://paginas.rocks/capture" method="post" > */}
+                    <form>
                         <input id="id" name="id" type="hidden" value="619211" />
                         <input id="mid" name="mid" type="hidden" value="619211" />
                         <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -80,11 +81,11 @@ export default function Page(props) {
                         <div className="flex flex-wrap justify-center space-x-2 pt-2">
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                                {/* <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} /> */}
                             </div>
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pr-4" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                                {/* <input class="absolute button-contato inputEmail pr-4" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} /> */}
                             </div>
                         </div>
                         <div className="relative flex justify-center pt-4">
@@ -115,7 +116,8 @@ export default function Page(props) {
                             <br />
                             essa disfunção e como conseguir a cura.
                         </div>
-                        <form action="https://paginas.rocks/capture" method="post" >
+                        {/* <form action="https://paginas.rocks/capture" method="post" > */}
+                        <form >
                             <input id="id" name="id" type="hidden" value="619211" />
                             <input id="mid" name="mid" type="hidden" value="619211" />
                             <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -125,11 +127,11 @@ export default function Page(props) {
                             <div className="flex flex-wrap justify-center space-x-14 pt-4">
                                 <div className="relative flex pl-8 pt-3">
                                     <img src={contato} className="flex botaoContato" />
-                                    <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                                    {/* <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} /> */}
                                 </div>
                                 <div className="relative flex pl-8 pt-3">
                                     <img src={contato} className="flex botaoContato" />
-                                    <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                                    {/* <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} /> */}
                                 </div>
                             </div>
                             <div className="relative flex justify-center pt-10">

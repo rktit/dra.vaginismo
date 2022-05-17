@@ -84,7 +84,8 @@ export default function Page(props) {
                         <strong>Garanta já sua vaga</strong>
                     </div>
                 </div>
-                <form action="https://paginas.rocks/capture" method="post" >
+                {/* <form action="https://paginas.rocks/capture" method="post" > */}
+                <form>
                     <input id="id" name="id" type="hidden" value="619211" />
                     <input id="mid" name="mid" type="hidden" value="619211" />
                     <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -94,11 +95,11 @@ export default function Page(props) {
                             <div className="flex flex-col justify-start">
                         <div className="relative flex">
                             <img src={contato} className="flex folder-botao" />
-                            <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/>
+                            {/* <input class="absolute folder-button inputBiografia" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/> */}
                         </div>
                         <div className="relative flex mt-3">
                             <img src={contato} className="flex folder-botao" />
-                            <input class="absolute inputBiografia folder-button" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
+                            {/* <input class="absolute inputBiografia folder-button" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/> */}
                         </div>
                     </div>
                     <div className="relative flex justify-start pt-7">
