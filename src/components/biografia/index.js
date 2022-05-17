@@ -6,6 +6,7 @@ import botao from '../../assets/cta/CTA.png'
 import contato from '../../assets/cta/botao.png'
 import logo from '../../assets/logo/logo-folder.png'
 import evento from '../../assets/logo/Evento.png'
+import Utils from '../../utils';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
@@ -84,8 +85,7 @@ export default function Page(props) {
                         <strong>Garanta já sua vaga</strong>
                     </div>
                 </div>
-                {/* <form action="https://paginas.rocks/capture" method="post" > */}
-                <form>
+                <form action="https://paginas.rocks/capture" method="post" >
                     <input id="id" name="id" type="hidden" value="619211" />
                     <input id="mid" name="mid" type="hidden" value="619211" />
                     <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -104,7 +104,7 @@ export default function Page(props) {
                     </div>
                     <div className="relative flex justify-start pt-7">
                         <img src={botao} className="flex button-folder" />
-                        <button type="submit" className="absolute botao-folder">Reservar minha vaga</button>
+                        <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-folder">Reservar minha vaga</button>
                     </div >
                 </form>
 

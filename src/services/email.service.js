@@ -33,6 +33,7 @@ export const sendLeadLovers = async (data, file = false) => {
 	}
 	//https://paginas.rocks/pages/index/620363
 	//https://paginas.rocks/capture/index/620363
+	//https://dravaginismo.com.br/encontromulhereslivres/obrigado
 	await axios
 			.post(`https://paginas.rocks/capture`, data)
 			.then((res) => {

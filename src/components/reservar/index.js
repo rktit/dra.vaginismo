@@ -34,6 +34,7 @@ export default function Page(props) {
       provider: "leadlovers",
       email: '',
       phone: '',
+      source:'',
     }
   );
 
@@ -44,6 +45,7 @@ export default function Page(props) {
   const sendForm = async () => {
     console.log('RELOAD');
     const result = await sendLeadLovers(data);
+    console.log('result :: ', result);
   }
 
   useEffect(() => {
@@ -79,7 +81,7 @@ export default function Page(props) {
             </div>
             <div className="relative flex justify-center pt-2">
               <img src={botao} className="absolute flex reserva-button" />
-              <button type="submit" className="absolute button-reserva" >Reservar minha vaga</button>
+              <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute button-reserva" >Reservar minha vaga</button>
             </div>
           </form>
           <div className="eventoText pt-2">Evento <strong>gratuito</strong> e
@@ -94,7 +96,7 @@ export default function Page(props) {
         <div className=" bg-reservar flex flex-col ">
           <Fade>
             <div className="textReserva pt-6">Entenda o que é a sua dor e<strong> descubra como ser livre</strong>!</div>
-            <form action="https://paginas.rocks/capture" method="post" >
+            <form action="https://paginas.rocks/capture" method="post">
               <input id="id" name="id" type="hidden" value="619211" />
               <input id="mid" name="mid" type="hidden" value="619211" />
               <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -113,7 +115,7 @@ export default function Page(props) {
               </div>
               <div className="relative flex justify-center pt-10">
                 <img src={botao} className="absolute flex reservaButton" />
-                <button type="submit" className="absolute buttonReserva" >Reservar minha vaga</button>
+                <button onClick={()=>{Utils.pageThanks()}} className="absolute buttonReserva" >Reservar minha vaga</button>
               </div>
             </form>
             <div className="evento pt-6">Evento <strong>gratuito</strong> e

@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal'
 import video from '../../assets/file/video.png'
 import botao from '../../assets/cta/CTA.png'
 import contato from '../../assets/cta/botao.png'
-
+import Utils from '../../utils';
 
 
 export default function Page(props) {
@@ -70,8 +70,7 @@ export default function Page(props) {
                         <br />
                         essa disfunção e como conseguir a cura.
                     </div>
-                    {/* <form action="https://paginas.rocks/capture" method="post" > */}
-                    <form>
+                    <form action="https://paginas.rocks/capture" method="post" >
                         <input id="id" name="id" type="hidden" value="619211" />
                         <input id="mid" name="mid" type="hidden" value="619211" />
                         <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -90,7 +89,7 @@ export default function Page(props) {
                         </div>
                         <div className="relative flex justify-center pt-4">
                             <img src={botao} className="absolute flex button-video" />
-                            <button type="submit" className="absolute botao-video">Reservar minha vaga</button>
+                            <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-video">Reservar minha vaga</button>
                         </div>
                     </form>
                 </div>
@@ -116,8 +115,7 @@ export default function Page(props) {
                             <br />
                             essa disfunção e como conseguir a cura.
                         </div>
-                        {/* <form action="https://paginas.rocks/capture" method="post" > */}
-                        <form >
+                        <form action="https://paginas.rocks/capture" method="post" >
                             <input id="id" name="id" type="hidden" value="619211" />
                             <input id="mid" name="mid" type="hidden" value="619211" />
                             <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -136,7 +134,7 @@ export default function Page(props) {
                             </div>
                             <div className="relative flex justify-center pt-10">
                                 <img src={botao} className="absolute flex buttonVideo" />
-                                <button type="submit" className="absolute botaoVideo pt-8">Reservar minha vaga</button>
+                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botaoVideo pt-8">Reservar minha vaga</button>
                             </div>
                         </form>
                     </div>

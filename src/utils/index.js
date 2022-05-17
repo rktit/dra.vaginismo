@@ -7,6 +7,10 @@ class Utils {
         console.log("RELOAD");
         window.location.reload(true);
     }
+
+    static pageThanks(){
+        window.location.href = "https://dravaginismo.com.br/encontromulhereslivres/obrigado";
+    }
 }
 
 export default Utils;

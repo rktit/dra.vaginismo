@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal'
 import logo from '../../assets/logo/logo-footer.png'
 import botao from '../../assets/cta/botao-reservar.png'
 import botaoFooter from '../../assets/cta/botao-footer.png'
-
+import Utils from '../../utils';
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
@@ -76,8 +76,7 @@ export default function Page(props) {
               <img src={logo} className="flex justify-self-center justify-center"/>
               </div>
             </div>
-            {/* <form action="https://paginas.rocks/capture" method="post" > */}
-            <form>
+            <form action="https://paginas.rocks/capture" method="post" >
               <input id="id" name="id" type="hidden" value="619211" />
               <input id="mid" name="mid" type="hidden" value="619211" />
               <input id="pid" name="pid" type="hidden" value="20798275" />
@@ -95,7 +94,7 @@ export default function Page(props) {
                 </div>
                 <div className="relative flex justify-center">
                   <img src={botao} className="absolute flex botaoVaga" />
-                  <button type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
+                  <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>
             </form>
