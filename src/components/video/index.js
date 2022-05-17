@@ -5,7 +5,6 @@ import { Fade } from 'react-reveal'
 import video from '../../assets/file/video.png'
 import botao from '../../assets/cta/CTA.png'
 import contato from '../../assets/cta/botao.png'
-import { sendLeadLovers } from '../../services/email.service';
 
 
 
@@ -39,10 +38,7 @@ export default function Page(props) {
     const handleChange = (e) => {
         setData({ ...data, [e.target.name]: e.target.value });
     }
-    const sendForm = async () => {
-        console.log('RELOAD');
-        const result = await sendLeadLovers(data);
-      }
+
     const [isMobile, setMobile] = useState(false)
 
     useEffect(() => {
