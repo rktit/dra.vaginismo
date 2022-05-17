@@ -28,10 +28,10 @@ export default function Page(props) {
   const [data, setData] = useState(
     {
       id: "619211",
-            mid: "619211",
-            pid: "20798275",
-            list_id: "619211",
-            provider: "leadlovers",
+      mid: "619211",
+      pid: "20798275",
+      list_id: "619211",
+      provider: "leadlovers",
       email: '',
       phone: '',
     }
@@ -42,7 +42,7 @@ export default function Page(props) {
   }
 
   const sendForm = async () => {
-    console.log('LOAD');
+    console.log('RELOAD');
     const result = await sendLeadLovers(data);
   }
 

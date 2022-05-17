@@ -6,6 +6,7 @@ import botao from '../../assets/cta/CTA.png'
 import contato from '../../assets/cta/botao.png'
 import logo from '../../assets/logo/logo-folder.png'
 import evento from '../../assets/logo/Evento.png'
+import { sendLeadLovers } from '../../services/email.service';
 
 export default function Page(props) {
     const btnScrollTop = useRef(null)
@@ -36,7 +37,10 @@ export default function Page(props) {
     const handleChange = (e) => {
         setData({...data, [e.target.name] : e.target.value});
     }
-
+    const sendForm = async () => {
+        console.log('RELOAD');
+        const result = await sendLeadLovers(data);
+      }
     const [isMobile, setMobile] = useState(false)
 
     useEffect(() => {

@@ -5,6 +5,7 @@ import { Fade } from 'react-reveal'
 import logo from '../../assets/logo/logo-footer.png'
 import botao from '../../assets/cta/botao-reservar.png'
 import botaoFooter from '../../assets/cta/botao-footer.png'
+import { sendLeadLovers } from '../../services/email.service';
 
 
 export default function Page(props) {
@@ -25,7 +26,10 @@ export default function Page(props) {
   const handleChange = (e) => {
     setData({...data, [e.target.name] : e.target.value});
   }
-
+  const sendForm = async () => {
+    console.log('RELOAD');
+    const result = await sendLeadLovers(data);
+  }
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
   }, [])
