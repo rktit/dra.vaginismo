@@ -80,7 +80,7 @@ export default function Page(props) {
                         <div className="flex flex-wrap justify-center space-x-2 pt-2">
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pl-5" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                                <input class="absolute button-contato inputEmail pl-1" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
                             </div>
                             <div className="relative flex mt-2">
                                 <img src={contato} className="flex botao-contato" />
@@ -89,7 +89,7 @@ export default function Page(props) {
                         </div>
                         <div className="relative flex justify-center pt-4">
                             <img src={botao} className="absolute flex button-video" />
-                            <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-video">Reservar minha vaga</button>
+                            <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-video mt-3">Reservar minha vaga</button>
                         </div>
                     </form>
                 </div>

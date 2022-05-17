@@ -65,12 +65,10 @@ export default function Page(props) {
                     e especialista em <strong>Fisioterapia Pélvica e Sexologia</strong>, com foco na sáude íntima feminina.
                     <br /><br />
                     Há mais de 7 anos trabalho com mulheres com dor durante a relação sexual.
-                    E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
+                    E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 500 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
                     <br /><br />
                     Diariamente compartilho muito conhecimento e qualidade de vida com milhares de
-                    mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a> e no
-                    <a href="https://www.tiktok.com/@dra.vaginismo?lang=en" target="_blank"><strong>TikTok @dra.vaginismo</strong> </a>.
-                    <br /><br />
+                    mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a>.<br /><br />
                     Tenho como propósito de vida levar a cura para milhões de mulheres que sofrem com
                     essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
                 </div>
@@ -103,8 +101,8 @@ export default function Page(props) {
                         </div>
                     </div>
                     <div className="relative flex justify-start pt-7">
-                        <img src={botao} className="flex button-folder" />
-                        <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-folder">Reservar minha vaga</button>
+                        <img src={botao} className="absolute flex button-folder" />
+                        <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-folder mt-2">Reservar minha vaga</button>
                     </div >
                 </form>
 
@@ -131,12 +129,10 @@ export default function Page(props) {
                         e especialista em <strong>Fisioterapia Pélvica e Sexologia</strong>, com foco na sáude íntima feminina.
                         <br /><br />
                         Há mais de 7 anos trabalho com mulheres com dor durante a relação sexual.
-                        E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de<br />
-                            450 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
+                        E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 500 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
                         <br /><br />
                         Diariamente compartilho muito conhecimento e qualidade de vida com milhares de
-                        mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a> e no
-                        <a href="https://www.tiktok.com/@dra.vaginismo?lang=en" target="_blank"><strong> TikTok @dra.vaginismo</strong> </a>.
+                        mulheres pelas redes sociais, principalmente através de meu perfil no <a href=" https://www.instagram.com/dra.vaginismo/" target="_blank"><strong>Instagram</strong></a>.
                         <br /><br />
                         Tenho como propósito de vida levar a cura para milhões de mulheres que sofrem com
                         essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
