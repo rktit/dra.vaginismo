@@ -75,7 +75,7 @@ export default function Page(props) {
                     </div>
 
                     <div className="flex flex-col">
-                        <div className="px-40">
+                        <div className="px-32">
                             <img src={timeline} className="w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
