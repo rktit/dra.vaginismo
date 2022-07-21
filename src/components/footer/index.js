@@ -57,7 +57,7 @@ export default function Page(props) {
               <img src={logo} className="flex justify-self-center justify-center" width="250"/>
           </div>
 
-            <div className="footerText">Política de Privacidade | Termo de Uso <br />
+            <div className="footer-text font-small">Política de Privacidade | Termo de Uso <br />
             Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. A Série Encontro Mulheres Livres ensina conceitos através de técnicas atualizadas e validadas. Os conteúdos tem caráter meramente informativo e educativo, não constitui e nem deve ser interpretado como recomendação obrigatória. Todas as informações contidas e compartilhadas são meramente indicativas, elas podem não refletir os sintomas reais dependendo de cada caso. Todos os participantes que ministram esta série, não se responsabilizam por decisões que venham a ser tomadas com base nas informações divulgadas e se eximem de qualquer responsabilidade, quaisquer prejuízos, diretos ou indiretos, que cenham a decorrer da utilização deste material ou seu conteúdo. Os conteúdos disponibilizados têm como único propósito fomentar a educação e autoconhecimento das mulheres. Ao se cadastrar para assistir o conteúdo, você está concordando com os termos de nossa Política de Privacidade e Termos de Uso. 
             </div>
         </Fade>
@@ -68,12 +68,12 @@ export default function Page(props) {
       <div className="bg-footer">
         <Fade>
           <div className="flex flex-col">
-            <div className="titulo-footer pt-10">
+            <div className="titulo-footer text-center font-lg pt-10">
             <strong>Garanta já sua vaga</strong>
             </div>
 
             <div className="flex flex-auto justify-center">
-              <img src={logo} className="flex justify-self-center justify-center"/>
+              <img src={logo} className="flex justify-self-center justify-center w-80"/>
               </div>
             </div>
             <form action="https://paginas.rocks/capture" method="post" >
@@ -92,8 +92,8 @@ export default function Page(props) {
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
                   <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
                 </div>
-                <div className="relative flex justify-center">
-                  <img src={botao} className="absolute flex botaoVaga" />
+                <div className="relative flex justify-center items-center">
+                  <img src={botao} className="absolute flex botaoVaga p-1" />
                   <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>

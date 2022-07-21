@@ -1,6 +1,7 @@
 //  import SaibaMais from "./saiba-mais";
 
 import Topo from "./topo";
+import BarraTopo from "./barra-topo";
 import Reservar from "./reservar";
 import Line from "./line";
 import Video from "./video";
@@ -12,6 +13,7 @@ export {
 // SaibaMais,
 
 Topo,
+BarraTopo,
 Reservar,
 Line,
 Video,

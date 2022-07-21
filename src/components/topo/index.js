@@ -3,13 +3,15 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import contato from '../../assets/cta/botao.png'
 import logo from '../../assets/logo/Logo.png'
-import { Reservar } from '../'
+import barraDesk from '../../assets/background/barraDesk.png'
+import barraMobile from '../../assets/background/barraMobile.png'
+import { BarraTopo } from '../'
 
 
 export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
-  
+
   // window.addEventListener("blur", function(){
   //   window.location.reload(true);
   // });
@@ -38,33 +40,40 @@ export default function Page(props) {
 
   return (
     isMobile ?
-    <div className="flex-auto bgTopo">
-      <div className="flex-auto flex-col">
+      <div className="flex-auto bgTopo">
+        <div className="flex-auto flex-col">
           <div className="flex-auto pt-7">
-            <div className="flex topImg ">
+            {/* <div className="flex top-img ">
             <img src={logo} className="imageTopo flex items-center "/>
-            </div>
+            </div> */}
           </div>
+          <img src={contato} className="imagemOculta" />
+
+        </div>
+        <div className="flex relative top-img">
+          <img src={barraMobile} className="flex w-full" />
+          <div className="absolute font-light uppercase tracking-widest text-center">Sua dor durante a relação <strong className="family-bold"> não é normal!</strong>
           </div>
-          <div className="titulo-topo">Sua dor durante a relação
-            <strong> não é normal!</strong>
-          </div>
-        <Reservar />
+        </div>
+        {/* <BarraTopo/> */}
       </div>
+
       :
-    <ScrollableAnchor id={'home'}>
-      <div className="bg-topo">
+      <ScrollableAnchor id={'home'}>
+        <div className="bg-topo">
           <div className="flex-auto pt-7">
             <div className="flex top-img pb-6">
-            <img src={logo} className="flex" width="400"/>
+              <img src={logo} className="flex" width="400" />
             </div>
-            <img src={contato} className="imagemOculta" />
+            <img src={contato} className="imgOculta" />
           </div>
-          <div className="tituloTopo tracking-widest items-end	">Sua dor durante a relação
-              <strong> não é normal!</strong>
+          <div className="flex relative top-img items-center">
+            <img src={barraDesk} className="flex opacity-90 w-full" />
+            <div className="absolute font-big uppercase tracking-widest text-center">Sua dor durante a relação <strong> não é normal!</strong>
             </div>
-        <Reservar />
-      </div>
-    </ScrollableAnchor>
+          </div>
+          {/* <BarraTopo/> */}
+        </div>
+      </ScrollableAnchor>
   )
 }

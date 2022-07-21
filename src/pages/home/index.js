@@ -6,6 +6,7 @@ import {
 
   Topo,
   Reservar,
+  BarraTopo,
   Line,
   Video,
   Biografia,
@@ -21,7 +22,8 @@ const Home_Page = () => {
 
 
       <Topo />
-       {/* <Reservar /> */}
+      {/* <BarraTopo /> */}
+       <Reservar />
        <Line />
        {/* <Video />
       <Biografia /> */}

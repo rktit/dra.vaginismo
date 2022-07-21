@@ -105,10 +105,16 @@ a {
 .font-pink {
   color: #d75f5f !important;
 }
+.font-rosa {
+color: #ba595d;
+}
 .font-gray {
   color: #746a69 !important;
 }
 
+.font-sm {
+  font-size: 0.5rem;
+}
 .font-xs {
   font-size: 0.75rem;
 }
@@ -121,11 +127,20 @@ a {
 .font-medium {
   font-size: 1.2rem;
 }
+.font-xtra {
+  font-size: 1.4rem;
+}
 .font-regular {
   font-size: 1.6rem;
 }
+.font-base {
+  font-size: 1.8rem;
+}
 .font-lg {
   font-size: 2rem;
+}
+.font-xl {
+  font-size: 2.5rem;
 }
 .font-big {
   font-size: 3rem;
@@ -153,32 +168,49 @@ a {
   animation-duration: 2s;
 }
 .bg-topo {
-  background: url(../assets/background/bg-topo2.jpeg) center top no-repeat;
-  background-size: contain; 
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
-
+.bgTopo {
+  background: url(../assets/background/bgtopo1.jpeg) center top no-repeat;
+  background-size: cover; 
+  height: 100%;
+}
 .bg-reservar {
   background: url(../assets/background/bg-reservar.jpeg) center top no-repeat;
   background-size: cover; 
   width: 100vw;
 }
+.top-img {
+  justify-content: center;
+}
+.imagemOculta {
+  visibility: hidden;
+  padding-bottom: 420px; 
+}
+.imgOculta {
+  visibility: hidden;
+  padding-bottom: 300px; 
+}
 .textReserva {
   text-align: center;
   text-transform: uppercase;
   color: #ba595d;
-  font-size: 2rem;
   letter-spacing: 0.1em;
 }
+.botaoReserva {
+  align-content: center;
+  opacity: 0.7;
+  width: 300px;
+}
 .botaoContato {
-  width: 360px;
   align-content: center;
   opacity: 0.7;
 }
 .buttonContato {
-  font-size: 1.2rem;
   align-self: center;
-  padding-left: 20px;
-  color: #ba595d;
 }
 .inputEmail{
   background: transparent;
@@ -206,7 +238,6 @@ a {
 }
 .buttonReserva {
   color: white;
-  font-size: 2.5rem;
   align-self: center;
   align-content: center;
   text-transform: uppercase;
@@ -215,7 +246,7 @@ a {
   font-family: LeagueSpartan-Regular;
 }
 .reservaButton {
-    width: 520px;
+    width: 420px;
     align-self: center;
     align-content: center;
 }
@@ -225,7 +256,6 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.025em;
   font-family: LeagueSpartan-Regular;
-  font-size: 1.7rem;
 }
 .textEvento {
   text-align: center;
@@ -235,14 +265,12 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #d75f5f;
-  font-size: 2.25rem;
   font-family: LeagueSpartan-Medium;
   letter-spacing: 0.025em;
 }
 .textLine {
   text-align: center;
   color: #746a69;
-  font-size: 1.5rem;
 }
 .buttonLine {
   width: 420px;
@@ -270,16 +298,23 @@ a {
   color: #ba595d;
   font-size: 1.2em;
 }
-.bg-folder {
-  background: url(../assets/background/bg-folder.jpeg) center center no-repeat;
+.bgFolder {
+  background: url(../assets/background/bgfolder.jpeg) center top no-repeat;
   background-size: cover; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.bg-folder {
+  background: url(../assets/background/background.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.folder-img {
+  padding-top: 280px;
 }
 .tituloVideo {
   text-align: center;
   text-transform: uppercase;
-  color: #ba595d;
-  font-size: 2.5rem;
-  font-family: LeagueSpartan-Medium;
+  color: #ba595d;  font-family: LeagueSpartan-Medium;
   letter-spacing: 0.05em;
 }
 .imgVideo {
@@ -289,7 +324,6 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ba595d;
-  font-size: 2.75rem;
   font-family: LeagueSpartan-Regular;
   line-height: 1.75rem;
 }
@@ -297,13 +331,11 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: #ba595d;
-  font-size: 1.55rem;
   font-family: LeagueSpartan-Regular;
 }
 .entenda{
   text-align: center;
   color: #746a69;
-  font-size: 1.35rem;
   line-height: 1.45rem;
   font-family: LeagueSpartan-Regular;
 }
@@ -319,45 +351,46 @@ a {
   color: #ba595d;
 }
 .buttonVideo {
-  width: 660px;
-  align-items: center;
+  width: 620px;
   opacity: 0.7;
 }
 .botaoVideo {
-  font-size: 3rem;
+  align-items: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  align-self: center;
+  padding-top: 15px;
+  font-family: LeagueSpartan-Regular;
 }
 .titulo-bio{
   text-align: center;
   text-transform: uppercase;
   font-family: agright--regular;
   color: #d75f5f;
-  font-size: 3rem;
 }
 .text-bio{
   text-align: left;
   text-transform: uppercase;
   color: black;
-  font-size: 1.2rem;
 }
 .descricao-bio {
   text-align: left;
   color: black;
-  font-size: 1rem;
   line-height: 1.5rem;
-  padding-right: 620px;
-  padding-bottom: 80px;
+  /* padding-right: 620px; */
   font-family: LeagueSpartan-Regular;
 }
+/* 
+.evento-img {
+  place-self: center;
+
+  width: 260px;
+} */
+
 .bg-footer {
   background: url(../assets/background/bg-footer.jpeg) center center no-repeat;
   background-size: cover; 
 }
 .titulo-footer{
-  font-size: 3rem;
-  text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -373,19 +406,20 @@ a {
 }
 .textFooter {
   text-align: center;
-  font-size: 1rem;
 }
 .footer-text {
   text-align: left;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1rem;
 }
 .bg-obrigadoDesk {
   background: url(../assets/background/bg-obrigado.png) center center no-repeat;
   background-size: cover; 
 }
-
+.bg-obrigado {
+  background: url(../assets/background/bg-obrigadoMobile.png) center center no-repeat;
+  background-size: cover; 
+}
 .saiba-title {
   font-size: 6em;  
   text-transform: uppercase;
@@ -456,16 +490,12 @@ a {
 .w3-container {
   padding: 2em 2em 0.8em;
 }
-.imagemOculta {
-  visibility: hidden;
-  padding-bottom: 850px;
-}
-.tituloTopo {
+
+/* .tituloTopo {
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
-  margin-top: -50px;
-}
+} */
 .modal-cancel {
     background-image: none;
     border: none;
@@ -500,7 +530,7 @@ a {
 .splide__arrow svg {
   fill: black !important;
 }
-@media (max-width: 1930px) {
+/* @media (max-width: 1930px) {
   .tituloTopo {
     margin-top: 140px;
   }
@@ -1155,7 +1185,7 @@ a {
   text-align: center;
   color: #746a69;
 }
-}
+} */
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
   * {
@@ -1182,7 +1212,7 @@ a {
     box-sizing: border-box;
   }
 }
-
+/* 
 @media only screen and (max-width: 600px) {
   .buttonReserva {
     font-size: 1.5rem;
@@ -1196,5 +1226,5 @@ a {
   .containerTopo{
     margin-top: 200px;
   }
-}
+} */
 /* SCROLLBAR */

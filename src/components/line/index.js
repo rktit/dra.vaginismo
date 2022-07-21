@@ -38,12 +38,12 @@ export default function Page(props) {
         isMobile ?
         <ScrollableAnchor id={'line'}>
 
-        <div className="bgfolder pt-10 px-4">
+        <div className="bgFolder pt-10">
                 <Fade>
-                    <div className="titulo-line">
+                    <div className="tituloLine font-xtra">
                         A dor que vai além do incômodo
                     </div>
-                    <div className="text-line pb-10">
+                    <div className="textLine pb-10 font-normal">
                         Saiba o porquê este encontro é para você.
                     </div>
 
@@ -65,17 +65,17 @@ export default function Page(props) {
             </ScrollableAnchor>
         :
         <ScrollableAnchor id={'line'}>
-            <div className="bg-folder px-20">
+            <div className="bg-folder">
                 <Fade>
-                    <div className="tituloLine pt-14">
+                    <div className="tituloLine font-xl pt-14">
                         A dor que vai além do incômodo
                     </div>
-                    <div className="textLine pb-20">
+                    <div className="textLine font-xtra pb-20">
                         Saiba o porquê este encontro é para você.
                     </div>
 
                     <div className="flex flex-col">
-                        <div className="px-36">
+                        <div className="px-40">
                             <img src={timeline} className="w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">

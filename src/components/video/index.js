@@ -52,14 +52,14 @@ export default function Page(props) {
     return (
         isMobile ?
             <Fade>
-                <div className="titulo-video pb-2 pt-12">
+                <div className="tituloVideo pb-2 pt-12 font-xtra">
                     Veja o que irá acontecer no nosso encontro
                 </div>
-                <div className="flex flex-col">
-                    <div className="flex justify-center">
-                        <img src={video} className="flex img-video" />
+                <div className="flex flex-col px-8">
+                    <div className="flex justify-center ">
+                        <img src={video} className="flex imgVideo" />
                     </div>
-                    <div className="descubra pt-2">
+                    <div className="descubra pt-4 font-regular">
                         Descubra se sua dor
                     </div>
                     <div className="durante">
@@ -77,19 +77,19 @@ export default function Page(props) {
                         <input id="list_id" name="list_id" type="hidden" value="619211" />
                         <input id="provider" name="provider" type="hidden" value="leadlovers" />
                         <input type="hidden" id="source" name="source" value="" />
-                        <div className="flex flex-wrap justify-center space-x-2 pt-2">
+                        <div className="flex flex-grid justify-center space-x-2 pt-2">
                             <div className="relative flex mt-2">
-                                <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pl-1" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                                <img src={contato} className="flex botaoContato w-60" />
+                                <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
                             </div>
                             <div className="relative flex mt-2">
-                                <img src={contato} className="flex botao-contato" />
-                                <input class="absolute button-contato inputEmail pr-4" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                                <img src={contato} className="flex botaoContato w-60" />
+                                <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
                             </div>
                         </div>
                         <div className="relative flex justify-center pt-4">
-                            <img src={botao} className="absolute flex button-video" />
-                            <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botao-video mt-3">Reservar minha vaga</button>
+                            <img src={botao} className="absolute flex buttonVideo" />
+                            <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botaoVideo font-regular">Reservar minha vaga</button>
                         </div>
                     </form>
                 </div>
@@ -97,20 +97,20 @@ export default function Page(props) {
             :
             <ScrollableAnchor id={'video'}>
                 <Fade>
-                    <div className="tituloVideo pb-10 pt-36">
+                    <div className="tituloVideo pb-10 pt-36 font-lg">
                         Veja o que irá acontecer no nosso encontro
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-center">
                             <img src={video} className="flex imgVideo" />
                         </div>
-                        <div className="descubra pt-8">
+                        <div className="descubra font-xl pt-8">
                             Descubra se sua dor
                         </div>
-                        <div className="durante">
+                        <div className="durante font-xtra">
                             Durante a relação sexual tem cura!
                         </div>
-                        <div className="entenda">
+                        <div className="entenda font-medium">
                             Entenda o que é Vaginismo, saiba se você possui
                             <br />
                             essa disfunção e como conseguir a cura.
@@ -122,19 +122,19 @@ export default function Page(props) {
                             <input id="list_id" name="list_id" type="hidden" value="619211" />
                             <input id="provider" name="provider" type="hidden" value="leadlovers" />
                             <input type="hidden" id="source" name="source" value="" />
-                            <div className="flex flex-wrap justify-center space-x-14 pt-4">
-                                <div className="relative flex pl-8 pt-3">
-                                    <img src={contato} className="flex botaoContato" />
-                                    <input class="absolute buttonContato inputEmail" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
+                            <div className="flex flex-wrap justify-center space-x-10 pt-4">
+                                <div className="relative flex pt-3">
+                                    <img src={contato} className="flex botaoContato w-80" />
+                                    <input class="absolute buttonContato inputEmail tracking-widest" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />
                                 </div>
-                                <div className="relative flex pl-8 pt-3">
-                                    <img src={contato} className="flex botaoContato" />
-                                    <input class="absolute buttonContato inputEmail" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
+                                <div className="relative flex pt-3">
+                                    <img src={contato} className="flex botaoContato w-80" />
+                                    <input class="absolute buttonContato inputEmail tracking-widest" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
                                 </div>
                             </div>
-                            <div className="relative flex justify-center pt-10">
+                            <div className="flex flex-auto relative justify-center pt-16 items-center">
                                 <img src={botao} className="absolute flex buttonVideo" />
-                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botaoVideo pt-8">Reservar minha vaga</button>
+                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="flex botaoVideo text-5xl content-center">Reservar minha vaga</button>
                             </div>
                         </form>
                     </div>
