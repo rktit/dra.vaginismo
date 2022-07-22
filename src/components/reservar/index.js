@@ -79,12 +79,12 @@ export default function Page(props) {
                 <input class="absolute flex buttonContato inputEmail tracking-widest font-xs" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange} />
               </div>
             </div>
-            <div className="relative flex justify-center pt-2">
+            <div className="relative flex justify-center pt-4">
               <img src={botao} className="absolute flex reservaButton" />
-              <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonReserva font-base" >Reservar minha vaga</button>
+              <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonReserva font-xtra" >Reservar minha vaga</button>
             </div>
           </form>
-          <div className="evento pt-4">Evento <strong>gratuito</strong> e
+          <div className="evento font-normal pt-4">Evento <strong>gratuito</strong> e
             <strong> online</strong>. Reserve agora!</div>
 
           <div className="textEvento font-sm pb-2">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
