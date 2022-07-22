@@ -65,11 +65,11 @@ export default function Page(props) {
             <div className="flex top-img pb-6">
               <img src={logo} className="flex" width="400" />
             </div>
-            <img src={contato} className="imgOculta" />
+            {/* <img src={contato} className="imgOculta" /> */}
           </div>
-          <div className="flex relative top-img items-center">
-            <img src={barraDesk} className="flex opacity-90 w-full" />
-            <div className="absolute font-big uppercase tracking-widest text-center">Sua dor durante a relação <strong> não é normal!</strong>
+          <div className="flex flex-auto top-img items-center">
+            <img src={barraDesk} className="flex flex-auto absolute bottom-0 opacity-90 w-full" />
+            <div className="flex absolute bottom-0 font-big uppercase tracking-widest text-center">Sua dor durante a relação <strong> não é normal!</strong>
             </div>
           </div>
           {/* <BarraTopo/> */}
