@@ -1,4 +1,4 @@
-//  import SaibaMais from "./saiba-mais";
+ import SaibaMais from "./saiba-mais";
 
 import Topo from "./topo";
 import BarraTopo from "./barra-topo";
@@ -10,7 +10,7 @@ import Footer from "./footer";
 
 
 export {
-// SaibaMais,
+SaibaMais,
 
 Topo,
 BarraTopo,
