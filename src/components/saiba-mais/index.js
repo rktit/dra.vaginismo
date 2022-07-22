@@ -36,7 +36,7 @@ export default function Page(props) {
   return (
     isMobile ?
       <div className="flex-auto flex-col bg-obrigado">
-        <div className="flex-auto">
+        <div className="flex-auto ">
 
           <div className="flex flex-auto justify-center pt-10">
             <img src={logoMobile} className="flex justify-self-center justify-center pt-2 pb-8" width="150" />
@@ -51,7 +51,7 @@ export default function Page(props) {
             </div>
           </div>
 
-          <div className="flex-auto flex-col relative place-items-center">
+          <div className="flex flex-col relative place-items-center">
 
             <div className="flex-auto absolute saiba-text px-20 pt-3">
               Saiba de tudo sobre o nosso <br/>ENCONTRO de primeira mão. 
