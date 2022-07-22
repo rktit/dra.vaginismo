@@ -49,7 +49,7 @@ export default function Page(props) {
 
                     <div className="flex flex-col">
                         <div className="px-4">
-                            <img src={timelineMobile} className="flex flex-auto w-auto"/>
+                            <img src={timelineMobile} className="flex w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine px-10">
