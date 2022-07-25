@@ -47,12 +47,12 @@ export default function Page(props) {
             <img src={logo} className="imageTopo flex items-center "/>
             </div> */}
           </div>
-          <img src={contato} className="flex flex-auto imagemOculta" />
+          <img src={contato} className="flex imagemOculta" />
 
         </div>
         <div className="flex relative top-img">
           <img src={barraMobile} className="flex flex-auto w-full" />
-          <div className=" absolute font-small uppercase tracking-widest text-center pt-0.5">Sua dor durante a relação <strong> não é normal!</strong>
+          <div className="flex absolute font-small uppercase tracking-widest text-center pt-0.5">Sua dor durante a relação <strong className="flex family-bold"> não é normal!</strong>
           </div>
         </div>
         {/* <BarraTopo/> */}
@@ -67,8 +67,8 @@ export default function Page(props) {
             </div>
             {/* <img src={contato} className="imgOculta" /> */}
           </div>
-          <div className="flex flex-auto top-img items-center">
-            <img src={barraDesk} className="absolute bottom-0 opacity-90 w-full" />
+          <div className="flex top-img items-center">
+            <img src={barraDesk} className="flex-auto absolute bottom-0 opacity-90 w-full" />
             <div className="flex-auto absolute bottom-0 font-big uppercase tracking-widest text-center">Sua dor durante a relação <strong> não é normal!</strong>
             </div>
           </div>

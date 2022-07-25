@@ -47,8 +47,8 @@ export default function Page(props) {
                         Saiba o porquê este encontro é para você.
                     </div>
 
-                    <div className="flex flex-col">
-                        <div className="px-4">
+                    <div className="flex flex-auto flex-col">
+                        <div className="flex-auto px-4">
                             <img src={timelineMobile} className="flex w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
