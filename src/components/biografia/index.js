@@ -128,7 +128,7 @@ export default function Page(props) {
                                 <div className="flex-initial text-bio pt-10 ">
                                     <strong> olá mulherada linda! </strong>
                                 </div>
-                                <div className="flex-initial descricao-bio ">
+                                <div className="flex-initial descricao-bio pb-20">
                                     Para quem ainda não me conhece, eu sou a Dra. Amanda Almeida,
                                     também conhecida como<strong> Dra. Vaginismo</strong>.
                                     <br /><br />
@@ -146,8 +146,8 @@ export default function Page(props) {
                                 </div>
                             </div>
                     </div>
-                            <div className="flex relative pr-20 ">
-                                <img src={amanda} className="flex pt-10" width="1000" />
+                            <div className="flex relative pr-10 ">
+                                <img src={amanda} className="flex flex-auto pt-10" width="800" />
                             </div>
                         </div>
 
