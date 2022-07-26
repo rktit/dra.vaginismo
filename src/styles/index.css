@@ -183,6 +183,12 @@ color: #ba595d;
   background-size: cover; 
   width: 100vw;
 }
+.textTopo {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 3rem;
+}
 .top-img {
   justify-content: center;
 }
@@ -526,9 +532,26 @@ color: #ba595d;
 .splide__arrow svg {
   fill: black !important;
 }
-
-@media screen and (min-width: 768px) {}
-
+@media only screen and (max-width: 1070px) {
+  .textTopo {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .textTopo {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .textTopo {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 630px) {
+  .textTopo {
+    font-size: 1rem;
+  }
+}
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
   * {
