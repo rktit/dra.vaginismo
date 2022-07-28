@@ -125,30 +125,30 @@ export default function Page(props) {
                                 <div className="flex justify-end pt-28 titulo-bio font-big">
                                     biografia
                                 </div>
-                                <div className="flex-initial text-bio pt-10 ">
+                                <div className="flex-col text-bio pt-10 ">
                                     <strong> olá mulherada linda! </strong>
                                 </div>
-                                <div className="flex-initial descricao-bio pb-20">
+                                <div className="flex-col descricao-bio pb-20">
                                     Para quem ainda não me conhece, eu sou a Dra. Amanda Almeida,
-                                    também conhecida como<strong> Dra. Vaginismo</strong>.
+                                    também conhecida <br />como<strong> Dra. Vaginismo</strong>.
                                     <br /><br />
-                                    Eu sou formada em Fisioterapia pela UNESP (Universidade do Estado de São Paulo),
+                                    Eu sou formada em Fisioterapia pela UNESP (Universidade do Estado de São Paulo),<br />
                                     e especialista em <strong>Fisioterapia Pélvica e Sexologia</strong>, com foco na sáude íntima feminina.
                                     <br /><br />
                                     Há mais de 7 anos trabalho com mulheres com dor durante a relação sexual.
-                                    E há 2 anos criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 500 mulheres a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
+                                    E há 2 anos <br />criei o 1º tratamento de Vaginismo à distância do mundo, ajudando <strong>mais de 500 mulheres<br /> a se livrar do Vaginismo</strong> sem sair de casa e de vários lugares do mundo.
                                     <br /><br />
                                     Diariamente compartilho muito conhecimento e qualidade de vida com milhares de
-                                    mulheres pelas redes sociais, principalmente através de meu perfil no <strong><a href=" https://www.instagram.com/dra.vaginismo/" target="_blank">Instagram</a></strong>.
+                                    mulheres <br />pelas redes sociais, principalmente através de meu perfil no <strong><a href=" https://www.instagram.com/dra.vaginismo/" target="_blank">Instagram</a></strong>.
                                     <br /><br />
                                     Tenho como propósito de vida levar a cura para milhões de mulheres que sofrem com
-                                    essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
+                                    essa <br />disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
                                 </div>
                             </div>
                     </div>
-                            <div className="flex relative pr-10 ">
+                            {/* <div className="flex relative pr-10 ">
                                 <img src={amanda} className="flex flex-auto pt-10" width="800" />
-                            </div>
+                            </div> */}
                         </div>
 
                     </Fade>

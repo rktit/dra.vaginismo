@@ -47,7 +47,7 @@ export default function Page(props) {
                         Saiba o porquê este encontro é para você.
                     </div>
 
-                    <div className="flex flex-auto flex-col">
+                    <div className="flex-auto flex-col">
                         <div className="flex-auto px-4">
                             <img src={timelineMobile} className="flex w-auto"/>
                         </div>
@@ -76,7 +76,7 @@ export default function Page(props) {
 
                     <div className="flex flex-col">
                         <div className="px-32">
-                            <img src={timeline} className="flex flex-auto w-auto"/>
+                            <img src={timeline} className="flex-auto w-auto"/>
                         </div>
                         <div className="flex flex-auto justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine">

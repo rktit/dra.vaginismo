@@ -311,7 +311,7 @@ color: #ba595d;
   padding-right: 10px;
 }
 .bg-folder {
-  background: url(../assets/background/background.jpg) center center no-repeat;
+  background: url(../assets/background/Borboleta.png) center center no-repeat;
   background-size: cover; 
 }
 .folder-img {
@@ -550,6 +550,11 @@ color: #ba595d;
 @media only screen and (max-width: 630px) {
   .textTopo {
     font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .textTopo {
+    font-size: 0.8rem;
   }
 }
 /* SCROLLBAR */
