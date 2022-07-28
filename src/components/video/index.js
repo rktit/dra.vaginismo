@@ -102,7 +102,7 @@ export default function Page(props) {
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-center">
-                            <img src={video} className="flex imgVideo" />
+                            <img src={video} className=" imgVideo" />
                         </div>
                         <div className="descubra font-xl pt-8">
                             Descubra se sua dor
@@ -134,7 +134,7 @@ export default function Page(props) {
                             </div>
                             <div className="flex flex-auto relative justify-center pt-16 items-center">
                                 <img src={botao} className="absolute flex buttonVideo" />
-                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="flex botaoVideo text-5xl content-center">Reservar minha vaga</button>
+                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="botaoVideo font-lg md:text-5xl content-center">Reservar minha vaga</button>
                             </div>
                         </form>
                     </div>

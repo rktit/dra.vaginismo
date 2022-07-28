@@ -541,11 +541,19 @@ color: #ba595d;
   .textTopo {
     font-size: 2rem;
   }
+  .buttonVideo {
+    width: 420px;
+    opacity: 0.7;
+  }
 }
 @media only screen and (max-width: 768px) {
   .textTopo {
     font-size: 1.8rem;
   }
+  /* .buttonVideo {
+    width: 420px;
+    opacity: 0.7;
+  } */
 }
 @media only screen and (max-width: 630px) {
   .textTopo {

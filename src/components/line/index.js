@@ -47,11 +47,11 @@ export default function Page(props) {
                         Saiba o porquê este encontro é para você.
                     </div>
 
-                    <div className="flex-auto flex-col">
-                        <div className="flex-auto px-4">
-                            <img src={timelineMobile} className="flex w-auto"/>
+                    <div className=" flex-col">
+                        <div className=" px-4">
+                            <img src={timelineMobile} className="w-auto"/>
                         </div>
-                        <div className="flex flex-auto justify-center pt-20">
+                        <div className="flex  justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine px-10">
                             <img src={botao} />
                             </button> 
@@ -74,11 +74,11 @@ export default function Page(props) {
                         Saiba o porquê este encontro é para você.
                     </div>
 
-                    <div className="flex flex-col">
-                        <div className="px-32">
-                            <img src={timeline} className="flex-auto w-auto"/>
+                    <div className="flex-col">
+                        <div className="px-10 md:px-32">
+                            <img src={timeline} className=" w-auto"/>
                         </div>
-                        <div className="flex flex-auto justify-center pt-20">
+                        <div className="flex  justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine">
                             <img src={botao} />
                             </button> 

@@ -75,8 +75,8 @@ export default function Page(props) {
                     essa disfunção, trazendo de volta a felicidade para a vida íntima de cada uma delas.
                 </div>
 
-                <div className="flex-auto pt-10">
-                    <div className="flex flex-auto px-16">
+                <div className="flex pt-10">
+                    <div className="flex px-16">
                         <img src={evento} className="flex" />
                     </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Page(props) {
                     </div >
                 </form>
 
-                <div className="flex-auto">
+                <div className="flex">
                     <div className="flex folder-img">
                         <img src={logo} className="flex pb-4" width="170" />
                     </div>
