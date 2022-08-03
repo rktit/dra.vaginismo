@@ -65,7 +65,7 @@ export default function Page(props) {
             </ScrollableAnchor>
         :
         <ScrollableAnchor id={'line'}>
-            <div className="bg-folder">
+            <div className="flex-auto bg-folder">
                 <Fade>
                     <div className="tituloLine font-xl pt-14">
                         A dor que vai além do incômodo
@@ -76,7 +76,7 @@ export default function Page(props) {
 
                     <div className="flex-col">
                         <div className="px-10 md:px-32">
-                            <img src={timeline} className="w-auto object-fill"/>
+                            <img src={timeline} className="w-auto"/>
                         </div>
                         <div className="flex  justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine">
