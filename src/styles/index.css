@@ -170,12 +170,13 @@ color: #ba595d;
 .bg-topo {
   background: url(../assets/background/Background.png) center top no-repeat;
   background-size: cover;
-  width: 100vw;
+  object-fit: cover;
   height: 100vh;
 }
 .bgTopo {
   background: url(../assets/background/bgtopo1.jpeg) center top no-repeat;
-  background-size: cover; 
+  background-size: cover;
+  object-fit: cover; 
   height: 100%;
 }
 .bg-reservar {

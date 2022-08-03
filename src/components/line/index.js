@@ -76,7 +76,7 @@ export default function Page(props) {
 
                     <div className="flex-col">
                         <div className="px-10 md:px-32">
-                            <img src={timeline} className=" w-auto"/>
+                            <img src={timeline} className="w-auto object-fill"/>
                         </div>
                         <div className="flex  justify-center pt-20">
                             <button onClick={() => window.location.href='#reservar'} className="flex buttonLine">
