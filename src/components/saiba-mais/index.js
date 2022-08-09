@@ -58,7 +58,7 @@ export default function Page(props) {
               Entre no GRUPO EXCLUSIVO NO WHATSAPP.
             </div>
             <div className="flex flex-auto pb-4">
-              <img src={fundoMobile} onClick={() => window.location = "https://wa.me/message/XYRDDYVQZI5UL1"} type="submit" className=" botao-saiba" width="300" />
+              <img src={fundoMobile} onClick={() => window.location = "https://wppbox.site/go/OEncontro"} type="submit" className=" botao-saiba" width="300" />
             </div >
           </div>
 
@@ -84,7 +84,7 @@ export default function Page(props) {
               Entre no GRUPO EXCLUSIVO NO WHATSAPP.
             </div>
             <div className="flex flex-auto">
-              <img src={fundoDesk} onClick={() => window.location = "https://wa.me/message/XYRDDYVQZI5UL1"} type="submit" className=" botao-saiba" width="500" />
+              <img src={fundoDesk} onClick={() => window.location = "https://wppbox.site/go/OEncontro"} type="submit" className=" botao-saiba" width="500" />
             </div >
           </div>
           <div className="flex flex-auto absolute bottom-0 right-0">
