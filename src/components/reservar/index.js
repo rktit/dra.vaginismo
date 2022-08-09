@@ -120,7 +120,7 @@ export default function Page(props) {
             </form>
             <div className="evento pt-6">Evento <strong>gratuito</strong> e
               <strong> online</strong>. Reserve agora!</div>
-            <div className="textEvento pt-4 pb-8">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
+            <div className="textEvento pt-4 pb-8 px-6 md:px-0">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
           </Fade>
         </div>
       </ ScrollableAnchor>

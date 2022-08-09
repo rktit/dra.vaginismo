@@ -97,12 +97,12 @@ export default function Page(props) {
             :
             <ScrollableAnchor id={'video'}>
                 <Fade>
-                    <div className="tituloVideo pb-10 pt-36 font-lg">
+                    <div className="tituloVideo pb-10 pt-36 font-lg px-2 md:px-0">
                         Veja o que irá acontecer no nosso encontro
                     </div>
                     <div className="flex flex-col">
                         <div className="flex justify-center">
-                            <img src={video} className=" imgVideo" />
+                            <img src={video} className=" imgVideo px-4 md:px-0" />
                         </div>
                         <div className="descubra font-xl pt-8">
                             Descubra se sua dor
@@ -122,7 +122,7 @@ export default function Page(props) {
                             <input id="list_id" name="list_id" type="hidden" value="619211" />
                             <input id="provider" name="provider" type="hidden" value="leadlovers" />
                             <input type="hidden" id="source" name="source" value="" />
-                            <div className="flex flex-wrap justify-center space-x-10 pt-4">
+                            <div className="flex flex-wrap justify-center space-x-2 md:space-x-10 pt-4">
                                 <div className="relative flex pt-3">
                                     <img src={contato} className="flex botaoContato w-80" />
                                     <input class="absolute buttonContato inputEmail tracking-widest" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange} />

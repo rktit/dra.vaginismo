@@ -119,10 +119,10 @@ export default function Page(props) {
             <div className="flex flex-wrap pt-10">
                     <Fade>
                     <div className="flex relative">
-                        <img src={Bio} className="flex absolute h-2/4 mt-10" />
+                        <img src={Bio} className="flex absolute h-1/2 md:h-2/4 mt-10" />
                         <div className="flex relative">
-                            <div className="flex flex-col w-full pl-32">
-                                <div className="flex justify-end pt-28 titulo-bio font-big">
+                            <div className="flex flex-col w-full pl-8 md:pl-32">
+                                <div className="flex justify-start md:justify-end pt-28 titulo-bio font-big">
                                     biografia
                                 </div>
                                 <div className="flex-col text-bio pt-10 ">

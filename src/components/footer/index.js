@@ -88,20 +88,20 @@ export default function Page(props) {
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
                   <input class="absolute buttonFooter inputFooter" id="email" name="email" placeholder="Seu melhor e-mail" type="text" onChange={handleChange}/>
                 </div>
-                <div className="relative flex justify-center">
+                <div className="relative flex justify-center pt-4 md:pt-0">
                   <img src={botaoFooter} className="flex botaoFooter px-2" />
                   <input class="absolute buttonFooter inputFooter" id="phone" name="phone" placeholder="DDD + Celular" type="text" onChange={handleChange}/>
                 </div>
-                <div className="relative flex justify-center items-center">
+                <div className="relative flex justify-center items-center pt-8 md:pt-0">
                   <img src={botao} className="absolute flex botaoVaga p-1" />
                   <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>
             </form>
-            <div className="textFooter pt-10">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.
+            <div className="textFooter pt-10 px-4 md:px-0">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.
             </div>
 
-            <div className="footer-text px-20">Política de Privacidade | Termo de Uso <br />
+            <div className="footer-text px-10 md:px-20">Política de Privacidade | Termo de Uso <br />
             Este site não é afiliado ao Faccebook ou a qualquer entidade do Facebook. A Série Encontro Mulheres Livres ensina conceitos através de técnicas atualizadas e validadas. Os conteúdos tem caráter meramente informativo e educativo, não constitui e nem deve ser interpretado como recomendação obrigatória. Todas as informações contidas e compartilhadas são meramente indicativas, elas podem não refletir os sintomas reais dependendo de cada caso. Todos os participantes que ministram esta série, não se responsabilizam por decisões que venham a ser tomadas com base nas informações divulgadas e se eximem de qualquer responsabilidade, quaisquer prejuízos, diretos ou indiretos, que cenham a decorrer da utilização deste material ou seu conteúdo. Os conteúdos disponibilizados têm como único propósito fomentar a educação e autoconhecimento das mulheres. Ao se cadastrar para assistir o conteúdo, você está concordando com os termos de nossa Política de Privacidade e Termos de Uso. 
             </div>
         </Fade>
