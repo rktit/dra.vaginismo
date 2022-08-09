@@ -36,7 +36,7 @@ export default function Page(props) {
 
     return (
         isMobile ?
-        <ScrollableAnchor id={'line'}>
+        <ScrollableAnchor id={''}>
 
         <div className="bgFolder pt-10">
                 <Fade>
@@ -64,7 +64,7 @@ export default function Page(props) {
             </div>
             </ScrollableAnchor>
         :
-        <ScrollableAnchor id={'line'}>
+        <ScrollableAnchor id={''}>
             <div className="flex-auto bg-folder">
                 <Fade>
                     <div className="flex-auto tituloLine font-xl pt-14">
