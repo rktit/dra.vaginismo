@@ -310,7 +310,7 @@ color: #ba595d;
   padding-right: 10px;
 }
 .bg-folder {
-  background: url(../assets/background/Borboleta.png) center center no-repeat;
+  background: url(../assets/background/Borboleta.png) center no-repeat;
   background-size: cover; 
 }
 .folder-img {
@@ -539,7 +539,7 @@ color: #ba595d;
 .bg-topo {
   background: url(../assets/background/Background.png) center top no-repeat;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 }
 }
 @media only screen and (max-width: 960px) {
@@ -554,7 +554,7 @@ color: #ba595d;
 .bg-topo {
   background: url(../assets/background/Background.png) center top no-repeat;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 }
 }
 @media only screen and (max-width: 768px) {
@@ -569,7 +569,7 @@ color: #ba595d;
 .bg-topo {
   background: url(../assets/background/Background.png) center top no-repeat;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 }
 }
 @media only screen and (max-width: 630px) {
@@ -577,9 +577,9 @@ color: #ba595d;
     font-size: 1rem;
   }
 .bg-topo {
-  background: url(../assets/background/Background.png) center top no-repeat;
+  background: url(../assets/background/bgtopo1.jpeg) center top no-repeat;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 }
 }
 @media only screen and (max-width: 360px) {
@@ -587,9 +587,9 @@ color: #ba595d;
     font-size: 0.8rem;
   }
 .bg-topo {
-  background: url(../assets/background/Background.png) center top no-repeat;
+  background: url(../assets/background/bgtopo1.jpeg) center top no-repeat;
   background-size: cover;
-  height: 100vh;
+  width: 100%;
 }
 }
 /* SCROLLBAR */

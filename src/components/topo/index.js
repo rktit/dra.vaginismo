@@ -63,7 +63,7 @@ export default function Page(props) {
         <div className="flex-auto bg-topo">
           <div className="flex-auto pt-7">
             <div className="flex top-img pb-6">
-              <img src={logo} className="flex" width="400" />
+              <img src={logo} className="flex invisible md:visible" width="400" />
             </div>
             {/* <img src={contato} className="imgOculta" /> */}
           </div>
