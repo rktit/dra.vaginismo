@@ -535,34 +535,62 @@ color: #ba595d;
   .textTopo {
     font-size: 2.5rem;
   }
+
+.bg-topo {
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 }
 @media only screen and (max-width: 960px) {
   .textTopo {
     font-size: 2rem;
   }
   .buttonVideo {
-    width: 420px;
+    width: 580px;
     opacity: 0.7;
   }
+
+.bg-topo {
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 }
 @media only screen and (max-width: 768px) {
   .textTopo {
     font-size: 1.8rem;
   }
-  /* .buttonVideo {
+  .buttonVideo {
     width: 420px;
     opacity: 0.7;
-  } */
+  }
+
+.bg-topo {
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 }
 @media only screen and (max-width: 630px) {
   .textTopo {
     font-size: 1rem;
   }
+.bg-topo {
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 }
 @media only screen and (max-width: 360px) {
   .textTopo {
     font-size: 0.8rem;
   }
+.bg-topo {
+  background: url(../assets/background/Background.png) center top no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
 }
 /* SCROLLBAR */
 @media only screen and (min-width: 600px) {
