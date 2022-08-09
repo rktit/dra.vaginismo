@@ -63,7 +63,7 @@ export default function Page(props) {
         </Fade>
       </div>
     :
-    <ScrollableAnchor id={'rodape'}>
+    <ScrollableAnchor id={''}>
       
       <div className="bg-footer">
         <Fade>

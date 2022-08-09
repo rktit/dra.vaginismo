@@ -115,7 +115,7 @@ export default function Page(props) {
                 </div>
             </Fade>
             :
-            <ScrollableAnchor id={'biografia'}>
+            <ScrollableAnchor id={''}>
             <div className="flex flex-wrap pt-10">
                     <Fade>
                     <div className="flex relative">

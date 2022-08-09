@@ -95,7 +95,7 @@ export default function Page(props) {
                 </div>
             </Fade>
             :
-            <ScrollableAnchor id={'video'}>
+            <ScrollableAnchor id={''}>
                 <Fade>
                     <div className="tituloVideo pb-10 pt-36 font-lg px-2 md:px-0">
                         Veja o que irá acontecer no nosso encontro

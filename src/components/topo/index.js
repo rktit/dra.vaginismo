@@ -59,7 +59,7 @@ export default function Page(props) {
       </div>
 
       :
-      <ScrollableAnchor id={'home'}>
+      <ScrollableAnchor id={''}>
         <div className="flex-auto bg-topo">
           <div className="flex-auto pt-7">
             <div className="flex top-img pb-6">

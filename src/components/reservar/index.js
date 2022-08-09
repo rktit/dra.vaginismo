@@ -58,7 +58,7 @@ export default function Page(props) {
 
   return (
     isMobile ?
-    <ScrollableAnchor id={'reservar'}>
+    <ScrollableAnchor id={''}>
       <div className="bg-reservar px-6">
         <Fade>
           <div className="textReserva pt-2 font-xs">Entenda o que é a sua dor e<strong> descubra como ser livre</strong>!</div>
@@ -92,7 +92,7 @@ export default function Page(props) {
       </div>
       </ ScrollableAnchor>
       :
-      <ScrollableAnchor id={'reservar'}>
+      <ScrollableAnchor id={''}>
         <div className=" bg-reservar flex flex-col ">
           <Fade>
             <div className="textReserva pt-6 font-base">Entenda o que é a sua dor e<strong> descubra como ser livre</strong>!</div>
