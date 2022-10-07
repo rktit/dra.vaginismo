@@ -12,9 +12,9 @@ export default function Page(props) {
   const btnScrollTop = useRef(null)
   const [showBtn, setShowBtn] = useState(false)
 
-  // window.addEventListener("blur", function(){
-  //   window.location.reload(true);
-  // });
+  window.addEventListener("blur", function(){
+    window.location.reload(true);
+  });
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll)
