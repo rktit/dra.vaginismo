@@ -45,7 +45,7 @@ export default function Page(props) {
   const sendForm = async () => {
     console.log('RELOAD');
     const result = await sendLeadLovers(data);
-    console.log('result :: ', result);
+    console.log('result :: ', result(true));
   }
 
   useEffect(() => {
