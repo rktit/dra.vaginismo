@@ -42,11 +42,11 @@ export default function Page(props) {
     setData({ ...data, [e.target.name]: e.target.value });
   }
 
-  const sendForm = async () => {
-    console.log('RELOAD');
-    const result = await sendLeadLovers(data);
-    console.log('result :: ', result(true));
-  }
+  // const sendForm = async () => {
+  //   console.log('RELOAD');
+  //   const result = await sendLeadLovers(data);
+  //   console.log('result :: ', result(true));
+  // }
 
   useEffect(() => {
     if (window.innerWidth >= 992) {
