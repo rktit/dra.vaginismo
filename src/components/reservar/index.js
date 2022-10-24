@@ -45,7 +45,7 @@ export default function Page(props) {
   const sendForm = async () => {
     console.log('RELOAD');
     const result = await sendLeadLovers(data);
-    console.log('result :: ', result(true));
+    console.log('result :: ', result);
   }
 
   useEffect(() => {
@@ -118,7 +118,7 @@ export default function Page(props) {
                 <button onClick={()=>{Utils.pageThanks()}} className="absolute buttonReserva font-base" >Reservar minha vaga</button>
               </div>
             </form>
-            <div className="evento pt-16">Evento <strong>gratuito</strong> e
+            <div className="evento pt-12">Evento <strong>gratuito</strong> e
               <strong> online</strong>. Reserve agora!</div>
             <div className="textEvento pt-4 pb-8 px-6 md:px-0">Ao se cadastrar, você aceita os Termos de Uso, Política de Privacidade, o uso de cookies e o envio de comunicação nos termos da LGPD.</div>
           </Fade>
