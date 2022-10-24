@@ -81,7 +81,7 @@ export default function Page(props) {
             </div>
             <div className="relative flex justify-center pt-4">
               <img src={botao} className="absolute flex reservaButton" />
-              <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonReserva font-xtra" >Reservar minha vaga</button>
+              <button onClick={(sendForm)=>{Utils.pageThanks()}} type="submit" className="absolute buttonReserva font-xtra" >Reservar minha vaga</button>
             </div>
           </form>
           <div className="evento font-normal pt-4">Evento <strong>gratuito</strong> e
@@ -115,7 +115,7 @@ export default function Page(props) {
               </div>
               <div className="relative flex justify-center pt-10">
                 <img src={botao} className="absolute flex reservaButton" />
-                <button onClick={()=>{Utils.pageThanks()}} className="absolute buttonReserva font-base" >Reservar minha vaga</button>
+                <button onClick={(sendForm)=>{Utils.pageThanks()}} className="absolute buttonReserva font-base" >Reservar minha vaga</button>
               </div>
             </form>
             <div className="evento pt-6">Evento <strong>gratuito</strong> e
