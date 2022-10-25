@@ -104,7 +104,7 @@ export default function Page(props) {
                     </div>
                     <div className="relative flex justify-start pt-7 pl-2">
                         <img src={botao} className="absolute flex button-folder w-60" />
-                        <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonReserva font-normal pl-6 mt-2">Reservar minha vaga</button>
+                        <button onClick={()=>{Utils.pageThanks()}} type="submit" className="relative buttonReserva font-normal pl-6 mt-2">Reservar minha vaga</button>
                     </div >
                 </form>
 
