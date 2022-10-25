@@ -88,7 +88,7 @@ export default function Page(props) {
                             </div>
                         </div>
                         <div className="relative flex justify-center pt-4">
-                            <img src={botao} className="absolute flex buttonVideo" />
+                            <img src={botao} className="absolute flex buttonVideo " />
                             <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute botaoVideo font-xtra">Reservar minha vaga</button>
                         </div>
                     </form>
@@ -134,7 +134,7 @@ export default function Page(props) {
                             </div>
                             <div className="flex flex-auto relative justify-center pt-16 items-center">
                                 <img src={botao} className="absolute flex buttonVideo" />
-                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="botaoVideo font-lg md:text-5xl content-center pt-10 md:pt-0">Reservar minha vaga</button>
+                                <button onClick={()=>{Utils.pageThanks()}} type="submit" className="relative botaoVideo font-lg md:text-5xl content-center pt-10 md:pt-0">Reservar minha vaga</button>
                             </div>
                         </form>
                     </div>
