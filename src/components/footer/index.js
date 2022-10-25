@@ -94,7 +94,7 @@ export default function Page(props) {
                 </div>
                 <div className="relative flex justify-center items-center pt-8 md:pt-0">
                   <img src={botao} className="absolute flex botaoVaga p-1" />
-                  <button onClick={()=>{Utils.pageThanks()}} type="submit" className="absolute buttonVaga px-6">Reservar minha vaga</button>
+                  <button onClick={()=>{Utils.pageThanks()}} type="submit" className=" buttonVaga px-6">Reservar minha vaga</button>
                 </div>
               </div>
             </form>
